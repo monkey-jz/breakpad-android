@@ -1,0 +1,6 @@
+/home/jerryzhu/Desktop/breakpaddemo/breakpadlib/.cxx/cmake/release/x86/CMakeFiles/rebuild_cache.dir
+/home/jerryzhu/Desktop/breakpaddemo/breakpadlib/.cxx/cmake/release/x86/CMakeFiles/edit_cache.dir
+/home/jerryzhu/Desktop/breakpaddemo/breakpadlib/.cxx/cmake/release/x86/CMakeFiles/breakpad_core.dir
+/home/jerryzhu/Desktop/breakpaddemo/breakpadlib/.cxx/cmake/release/x86/breakpad/CMakeFiles/rebuild_cache.dir
+/home/jerryzhu/Desktop/breakpaddemo/breakpadlib/.cxx/cmake/release/x86/breakpad/CMakeFiles/edit_cache.dir
+/home/jerryzhu/Desktop/breakpaddemo/breakpadlib/.cxx/cmake/release/x86/breakpad/CMakeFiles/breakpad.dir

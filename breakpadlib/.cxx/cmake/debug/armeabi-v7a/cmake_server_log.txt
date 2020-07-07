@@ -1,0 +1,190 @@
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"supportedProtocolVersions":[{"isExperimental":true,"major":1,"minor":1}],"type":"hello"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {
+  "type": "handshake",
+  "cookie": "gradle-cmake-cookie",
+  "protocolVersion": {
+    "isExperimental": true,
+    "major": 1,
+    "minor": 1
+  },
+  "sourceDirectory": "/home/jerryzhu/Desktop/breakpaddemo/breakpadlib/src/main/cpp",
+  "buildDirectory": "/home/jerryzhu/Desktop/breakpaddemo/breakpadlib/.cxx/cmake/debug/armeabi-v7a",
+  "generator": "Ninja"
+}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"gradle-cmake-cookie","inReplyTo":"handshake","type":"reply"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {
+  "type": "configure",
+  "cacheArguments": [
+    "",
+    "-DANDROID_ABI\u003darmeabi-v7a",
+    "-DANDROID_PLATFORM\u003dandroid-16",
+    "-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003d/home/jerryzhu/Desktop/breakpaddemo/breakpadlib/build/intermediates/cmake/debug/obj/armeabi-v7a",
+    "-DCMAKE_BUILD_TYPE\u003dDebug",
+    "-DANDROID_NDK\u003d/home/jerryzhu/Desktop/as_tools/android-ndk-r16b",
+    "-DCMAKE_SYSTEM_NAME\u003dAndroid",
+    "-DCMAKE_ANDROID_ARCH_ABI\u003darmeabi-v7a",
+    "-DCMAKE_SYSTEM_VERSION\u003d16",
+    "-DCMAKE_EXPORT_COMPILE_COMMANDS\u003dON",
+    "-DCMAKE_ANDROID_NDK\u003d/home/jerryzhu/Desktop/as_tools/android-ndk-r16b",
+    "-DCMAKE_TOOLCHAIN_FILE\u003d/home/jerryzhu/Desktop/as_tools/android-ndk-r16b/build/cmake/android.toolchain.cmake",
+    "-G Ninja",
+    "-DCMAKE_MAKE_PROGRAM\u003d/home/jerryzhu/Desktop/as_tools/android_tools/sdk/cmake/3.10.2.4988404/bin/ninja"
+  ]
+}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"CMake Warning at /home/jerryzhu/Desktop/as_tools/android-ndk-r16b/build/cmake/android.toolchain.cmake:63 (message):\n  Using custom NDK path (ANDROID_NDK is set):\n  /home/jerryzhu/Desktop/as_tools/android-ndk-r16b\nCall Stack (most recent call first):\n  /home/jerryzhu/Desktop/breakpaddemo/breakpadlib/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)\n  CMakeLists.txt\n\n","title":"Warning","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: CMake Warning at /home/jerryzhu/Desktop/as_tools/android-ndk-r16b/build/cmake/android.toolchain.cmake:63 (message):
+  Using custom NDK path (ANDROID_NDK is set):
+  /home/jerryzhu/Desktop/as_tools/android-ndk-r16b
+Call Stack (most recent call first):
+  /home/jerryzhu/Desktop/breakpaddemo/breakpadlib/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)
+  CMakeLists.txt
+
+
+CMAKE SERVER: CMake Warning at /home/jerryzhu/Desktop/as_tools/android-ndk-r16b/build/cmake/android.toolchain.cmake:63 (message):
+  Using custom NDK path (ANDROID_NDK is set):
+  /home/jerryzhu/Desktop/as_tools/android-ndk-r16b
+Call Stack (most recent call first):
+  /home/jerryzhu/Desktop/breakpaddemo/breakpadlib/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)
+  CMakeLists.txt
+
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","progressCurrent":900,"progressMaximum":1000,"progressMessage":"Configuring","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","progressCurrent":950,"progressMaximum":1000,"progressMessage":"Configuring","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","progressCurrent":1000,"progressMaximum":1000,"progressMessage":"Configuring","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"Configuring done","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Configuring done
+CMAKE SERVER: Configuring done
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","type":"reply"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"type":"compute"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"compute","progressCurrent":500,"progressMaximum":1000,"progressMessage":"Generating","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"compute","progressCurrent":1000,"progressMaximum":1000,"progressMessage":"Generating","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"compute","message":"Generating done","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Generating done
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"compute","type":"reply"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"type":"cmakeInputs"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"buildFiles":[{"isCMake":true,"isTemporary":false,"sources":["../../../../../as_tools/android_tools/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeSystemSpecificInitialize.cmake","../../../../../as_tools/android_tools/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Initialize.cmake","../../../../../as_tools/android_tools/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeSystemSpecificInformation.cmake","../../../../../as_tools/android_tools/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeGenericSystem.cmake","../../../../../as_tools/android_tools/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android.cmake","../../../../../as_tools/android_tools/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Linux.cmake","../../../../../as_tools/android_tools/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/UnixPaths.cmake","../../../../../as_tools/android_tools/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCInformation.cmake","../../../../../as_tools/android_tools/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeLanguageInformation.cmake","../../../../../as_tools/android_tools/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-C.cmake","../../../../../as_tools/android_tools/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang.cmake","../../../../../as_tools/android_tools/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/CMakeCommonCompilerMacros.cmake","../../../../../as_tools/android_tools/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/GNU.cmake","../../../../../as_tools/android_tools/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/CMakeCommonCompilerMacros.cmake","../../../../../as_tools/android_tools/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang-C.cmake","../../../../../as_tools/android_tools/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang.cmake","../../../../../as_tools/android_tools/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCommonLanguageInclude.cmake","../../../../../as_tools/android_tools/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCXXInformation.cmake","../../../../../as_tools/android_tools/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeLanguageInformation.cmake","../../../../../as_tools/android_tools/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX.cmake","../../../../../as_tools/android_tools/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang.cmake","../../../../../as_tools/android_tools/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang-CXX.cmake","../../../../../as_tools/android_tools/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang.cmake","../../../../../as_tools/android_tools/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCommonLanguageInclude.cmake"]},{"isCMake":false,"isTemporary":false,"sources":["CMakeLists.txt","../../../../../as_tools/android-ndk-r16b/build/cmake/android.toolchain.cmake","breakpad/CMakeLists.txt"]},{"isCMake":false,"isTemporary":true,"sources":["../../../.cxx/cmake/debug/armeabi-v7a/CMakeFiles/3.10.2/CMakeSystem.cmake","../../../.cxx/cmake/debug/armeabi-v7a/CMakeFiles/3.10.2/CMakeCCompiler.cmake","../../../.cxx/cmake/debug/armeabi-v7a/CMakeFiles/3.10.2/CMakeCXXCompiler.cmake"]}],"cmakeRootDirectory":"/home/jerryzhu/Desktop/as_tools/android_tools/sdk/cmake/3.10.2.4988404/share/cmake-3.10","cookie":"","inReplyTo":"cmakeInputs","sourceDirectory":"/home/jerryzhu/Desktop/breakpaddemo/breakpadlib/src/main/cpp","type":"reply"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"type":"codemodel"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"configurations":[{"name":"Debug","projects":[{"buildDirectory":"/home/jerryzhu/Desktop/breakpaddemo/breakpadlib/.cxx/cmake/debug/armeabi-v7a","name":"Project","sourceDirectory":"/home/jerryzhu/Desktop/breakpaddemo/breakpadlib/src/main/cpp","targets":[{"artifacts":["/home/jerryzhu/Desktop/breakpaddemo/breakpadlib/build/intermediates/cmake/debug/obj/armeabi-v7a/libbreakpad_core.so"],"buildDirectory":"/home/jerryzhu/Desktop/breakpaddemo/breakpadlib/.cxx/cmake/debug/armeabi-v7a","fileGroups":[{"compileFlags":"-isystem /home/jerryzhu/Desktop/as_tools/android-ndk-r16b/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=16 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -std=c++11  -O0 -fno-limit-debug-info  -fPIC  ","defines":["breakpad_core_EXPORTS"],"includePath":[{"path":"/home/jerryzhu/Desktop/breakpaddemo/breakpadlib/src/main/cpp/breakpad/src"},{"path":"/home/jerryzhu/Desktop/breakpaddemo/breakpadlib/src/main/cpp/breakpad/src/common/android/include"},{"isSystem":true,"path":"/home/jerryzhu/Desktop/as_tools/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/include"},{"isSystem":true,"path":"/home/jerryzhu/Desktop/as_tools/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include"},{"isSystem":true,"path":"/home/jerryzhu/Desktop/as_tools/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/include/backward"}],"isGenerated":false,"language":"CXX","sources":["breakpadlib.cpp"]}],"fullName":"libbreakpad_core.so","linkFlags":"-Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libatomic.a --sysroot /home/jerryzhu/Desktop/as_tools/android-ndk-r16b/platforms/android-16/arch-arm -Wl,--build-id -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--fix-cortex-a8 -Wl,--no-undefined -Wl,-z,noexecstack -Qunused-arguments -Wl,-z,relro -Wl,-z,now","linkLibraries":"breakpad/libbreakpad.a -llog -latomic -lm \"/home/jerryzhu/Desktop/as_tools/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/libgnustl_static.a\"","linkerLanguage":"CXX","name":"breakpad_core","sourceDirectory":"/home/jerryzhu/Desktop/breakpaddemo/breakpadlib/src/main/cpp","sysroot":"/home/jerryzhu/Desktop/as_tools/android-ndk-r16b/sysroot","type":"SHARED_LIBRARY"},{"artifacts":["/home/jerryzhu/Desktop/breakpaddemo/breakpadlib/.cxx/cmake/debug/armeabi-v7a/breakpad/libbreakpad.a"],"buildDirectory":"/home/jerryzhu/Desktop/breakpaddemo/breakpadlib/.cxx/cmake/debug/armeabi-v7a/breakpad","fileGroups":[{"compileFlags":"-isystem /home/jerryzhu/Desktop/as_tools/android-ndk-r16b/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=16 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -Werror=implicit-function-declaration -O0 -fno-limit-debug-info  -fPIC  ","includePath":[{"path":"/home/jerryzhu/Desktop/breakpaddemo/breakpadlib/src/main/cpp/breakpad/src"},{"path":"/home/jerryzhu/Desktop/breakpaddemo/breakpadlib/src/main/cpp/breakpad/src/common/android/include"},{"path":"/home/jerryzhu/Desktop/breakpaddemo/breakpadlib/src/main/cpp/breakpad/src/common"}],"isGenerated":false,"language":"C","sources":["src/common/linux/breakpad_getcontext.S"]},{"compileFlags":"-isystem /home/jerryzhu/Desktop/as_tools/android-ndk-r16b/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=16 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -std=c++11  -O0 -fno-limit-debug-info  -fPIC  ","includePath":[{"path":"/home/jerryzhu/Desktop/breakpaddemo/breakpadlib/src/main/cpp/breakpad/src"},{"path":"/home/jerryzhu/Desktop/breakpaddemo/breakpadlib/src/main/cpp/breakpad/src/common/android/include"},{"path":"/home/jerryzhu/Desktop/breakpaddemo/breakpadlib/src/main/cpp/breakpad/src/common"},{"isSystem":true,"path":"/home/jerryzhu/Desktop/as_tools/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/include"},{"isSystem":true,"path":"/home/jerryzhu/Desktop/as_tools/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include"},{"isSystem":true,"path":"/home/jerryzhu/Desktop/as_tools/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/include/backward"}],"isGenerated":false,"language":"CXX","sources":["src/client/linux/crash_generation/crash_generation_client.cc","src/client/linux/dump_writer_common/thread_info.cc","src/client/linux/dump_writer_common/ucontext_reader.cc","src/client/linux/handler/exception_handler.cc","src/client/linux/handler/minidump_descriptor.cc","src/client/linux/log/log.cc","src/client/linux/microdump_writer/microdump_writer.cc","src/client/linux/minidump_writer/linux_dumper.cc","src/client/linux/minidump_writer/linux_ptrace_dumper.cc","src/client/linux/minidump_writer/minidump_writer.cc","src/client/minidump_file_writer.cc","src/common/convert_UTF.cc","src/common/md5.cc","src/common/string_conversion.cc","src/common/linux/elfutils.cc","src/common/linux/file_id.cc","src/common/linux/guid_creator.cc","src/common/linux/linux_libc_support.cc","src/common/linux/memory_mapped_file.cc","src/common/linux/safe_readlink.cc"]}],"fullName":"libbreakpad.a","linkerLanguage":"CXX","name":"breakpad","sourceDirectory":"/home/jerryzhu/Desktop/breakpaddemo/breakpadlib/src/main/cpp/breakpad","sysroot":"/home/jerryzhu/Desktop/as_tools/android-ndk-r16b/sysroot","type":"STATIC_LIBRARY"}]}]}],"cookie":"","inReplyTo":"codemodel","type":"reply"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+

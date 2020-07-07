@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/jerryzhu/Desktop/breakpaddemo/app/.cxx/cmake/release/arm64-v8a",
+  "command": "/home/jerryzhu/Desktop/as_tools/android-ndk-r16b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=aarch64-none-linux-android --gcc-toolchain=/home/jerryzhu/Desktop/as_tools/android-ndk-r16b/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64 --sysroot=/home/jerryzhu/Desktop/as_tools/android-ndk-r16b/sysroot  -Dnative_lib_EXPORTS -isystem /home/jerryzhu/Desktop/as_tools/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/jerryzhu/Desktop/as_tools/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/libs/arm64-v8a/include -isystem /home/jerryzhu/Desktop/as_tools/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /home/jerryzhu/Desktop/as_tools/android-ndk-r16b/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -std=c++11 -Wall -O2 -DNDEBUG  -fPIC   -o CMakeFiles/native-lib.dir/native-lib.cpp.o -c /home/jerryzhu/Desktop/breakpaddemo/app/src/main/cpp/native-lib.cpp",
+  "file": "/home/jerryzhu/Desktop/breakpaddemo/app/src/main/cpp/native-lib.cpp"
+}
+]

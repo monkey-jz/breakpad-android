@@ -1,0 +1,19 @@
+{
+  "buildFiles": [
+    "/home/jerryzhu/Desktop/as_tools/android-ndk-r21b/build/cmake/platforms.cmake",
+    "/home/jerryzhu/Desktop/breakpaddemo/app/src/main/cpp/CMakeLists.txt",
+    "/home/jerryzhu/Desktop/as_tools/android-ndk-r21b/build/cmake/android.toolchain.cmake"
+  ],
+  "cleanCommands": [
+    "/home/jerryzhu/Desktop/as_tools/android_tools/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/jerryzhu/Desktop/breakpaddemo/app/.cxx/cmake/debug/x86_64\" clean"
+  ],
+  "buildTargetsCommand": "/home/jerryzhu/Desktop/as_tools/android_tools/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/jerryzhu/Desktop/breakpaddemo/app/.cxx/cmake/debug/x86_64\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "native-lib-Debug-x86_64": {
+      "artifactName": "native-lib",
+      "buildCommand": "/home/jerryzhu/Desktop/as_tools/android_tools/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/jerryzhu/Desktop/breakpaddemo/app/.cxx/cmake/debug/x86_64\" native-lib",
+      "abi": "x86_64",
+      "output": "/home/jerryzhu/Desktop/breakpaddemo/app/build/intermediates/cmake/debug/obj/x86_64/libnative-lib.so"
+    }
+  }
+}

@@ -1,0 +1,6 @@
+/home/jerryzhu/Desktop/breakpaddemo/breakpadlib/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/rebuild_cache.dir
+/home/jerryzhu/Desktop/breakpaddemo/breakpadlib/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/edit_cache.dir
+/home/jerryzhu/Desktop/breakpaddemo/breakpadlib/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/breakpad_core.dir
+/home/jerryzhu/Desktop/breakpaddemo/breakpadlib/.cxx/cmake/debug/armeabi-v7a/breakpad/CMakeFiles/rebuild_cache.dir
+/home/jerryzhu/Desktop/breakpaddemo/breakpadlib/.cxx/cmake/debug/armeabi-v7a/breakpad/CMakeFiles/edit_cache.dir
+/home/jerryzhu/Desktop/breakpaddemo/breakpadlib/.cxx/cmake/debug/armeabi-v7a/breakpad/CMakeFiles/breakpad.dir

@@ -1,0 +1,3 @@
+ninja: Entering directory `/home/jerryzhu/Desktop/breakpaddemo/breakpadlib/.cxx/cmake/debug/armeabi-v7a'
+[1/2] Building CXX object CMakeFiles/breakpad_core.dir/breakpadlib.cpp.o
+[2/2] Linking CXX shared library /home/jerryzhu/Desktop/breakpaddemo/breakpadlib/build/intermediates/cmake/debug/obj/armeabi-v7a/libbreakpad_core.so

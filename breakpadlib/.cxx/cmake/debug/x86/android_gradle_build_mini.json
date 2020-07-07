@@ -1,0 +1,25 @@
+{
+  "buildFiles": [
+    "/home/jerryzhu/Desktop/as_tools/android-ndk-r16b/build/cmake/android.toolchain.cmake",
+    "/home/jerryzhu/Desktop/breakpaddemo/breakpadlib/src/main/cpp/breakpad/CMakeLists.txt",
+    "/home/jerryzhu/Desktop/breakpaddemo/breakpadlib/src/main/cpp/CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "/home/jerryzhu/Desktop/as_tools/android_tools/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/jerryzhu/Desktop/breakpaddemo/breakpadlib/.cxx/cmake/debug/x86\" clean"
+  ],
+  "buildTargetsCommand": "/home/jerryzhu/Desktop/as_tools/android_tools/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/jerryzhu/Desktop/breakpaddemo/breakpadlib/.cxx/cmake/debug/x86\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "breakpad-Debug-x86": {
+      "artifactName": "breakpad",
+      "buildCommand": "/home/jerryzhu/Desktop/as_tools/android_tools/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/jerryzhu/Desktop/breakpaddemo/breakpadlib/.cxx/cmake/debug/x86\" breakpad",
+      "abi": "x86",
+      "output": "/home/jerryzhu/Desktop/breakpaddemo/breakpadlib/.cxx/cmake/debug/x86/breakpad/libbreakpad.a"
+    },
+    "breakpad_core-Debug-x86": {
+      "artifactName": "breakpad_core",
+      "buildCommand": "/home/jerryzhu/Desktop/as_tools/android_tools/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/jerryzhu/Desktop/breakpaddemo/breakpadlib/.cxx/cmake/debug/x86\" breakpad_core",
+      "abi": "x86",
+      "output": "/home/jerryzhu/Desktop/breakpaddemo/breakpadlib/build/intermediates/cmake/debug/obj/x86/libbreakpad_core.so"
+    }
+  }
+}

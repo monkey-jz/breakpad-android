@@ -1,0 +1,42 @@
+{
+  "stringTable": {
+    "0": "/home/jerryzhu/Desktop/breakpaddemo/app/.cxx/cmake/release/x86_64",
+    "1": "--target=x86_64-none-linux-android21 --gcc-toolchain=/home/jerryzhu/Desktop/as_tools/android-ndk-r21b/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/jerryzhu/Desktop/as_tools/android-ndk-r21b/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dnative_lib_EXPORTS -I/home/jerryzhu/Desktop/breakpaddemo/app/src/main/cpp/src -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -std=c++11 -Wall -O2 -DNDEBUG -fPIC"
+  },
+  "buildFiles": [
+    "/home/jerryzhu/Desktop/as_tools/android-ndk-r21b/build/cmake/platforms.cmake",
+    "/home/jerryzhu/Desktop/breakpaddemo/app/src/main/cpp/CMakeLists.txt",
+    "/home/jerryzhu/Desktop/as_tools/android-ndk-r21b/build/cmake/android.toolchain.cmake"
+  ],
+  "cleanCommands": [
+    "/home/jerryzhu/Desktop/as_tools/android_tools/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/jerryzhu/Desktop/breakpaddemo/app/.cxx/cmake/release/x86_64\" clean"
+  ],
+  "buildTargetsCommand": "/home/jerryzhu/Desktop/as_tools/android_tools/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/jerryzhu/Desktop/breakpaddemo/app/.cxx/cmake/release/x86_64\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "native-lib-Release-x86_64": {
+      "buildCommand": "/home/jerryzhu/Desktop/as_tools/android_tools/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/jerryzhu/Desktop/breakpaddemo/app/.cxx/cmake/release/x86_64\" native-lib",
+      "buildType": "release",
+      "toolchain": "3466970660",
+      "abi": "x86_64",
+      "artifactName": "native-lib",
+      "files": [
+        {
+          "src": "/home/jerryzhu/Desktop/breakpaddemo/app/src/main/cpp/native-lib.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [],
+      "output": "/home/jerryzhu/Desktop/breakpaddemo/app/build/intermediates/cmake/release/obj/x86_64/libnative-lib.so"
+    }
+  },
+  "toolchains": {
+    "3466970660": {
+      "cppCompilerExecutable": "/home/jerryzhu/Desktop/as_tools/android-ndk-r21b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++"
+    }
+  },
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

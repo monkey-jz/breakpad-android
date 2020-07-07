@@ -1,0 +1,3 @@
+include ':breakpadlib'
+include ':app'
+rootProject.name='breakpaddemo'
