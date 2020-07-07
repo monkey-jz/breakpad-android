@@ -1,23 +1,23 @@
 {
   "buildFiles": [
-    "C:\\Users\\JerryZhu\\Desktop\\breakpaddemo\\breakpadlib\\src\\main\\cpp\\CMakeLists.txt",
-    "C:\\Users\\JerryZhu\\Desktop\\breakpaddemo\\breakpadlib\\src\\main\\cpp\\breakpad\\CMakeLists.txt"
+    "C:\\Users\\JerryZhu\\Desktop\\breakpad-android\\breakpadlib\\src\\main\\cpp\\CMakeLists.txt",
+    "C:\\Users\\JerryZhu\\Desktop\\breakpad-android\\breakpadlib\\src\\main\\cpp\\breakpad\\CMakeLists.txt"
   ],
   "cleanCommands": [
-    "E:\\adt-bundle-windows-x86_64\\sdk_as\\cmake\\3.6.4111459\\bin\\cmake.exe --build C:\\Users\\JerryZhu\\Desktop\\breakpaddemo\\breakpadlib\\.cxx\\cmake\\debug\\arm64-v8a --target clean"
+    "E:\\adt-bundle-windows-x86_64\\sdk_as\\cmake\\3.6.4111459\\bin\\cmake.exe --build C:\\Users\\JerryZhu\\Desktop\\breakpad-android\\breakpadlib\\.cxx\\cmake\\debug\\arm64-v8a --target clean"
   ],
   "libraries": {
     "breakpad-Debug-arm64-v8a": {
       "artifactName": "breakpad",
-      "buildCommand": "E:\\adt-bundle-windows-x86_64\\sdk_as\\cmake\\3.6.4111459\\bin\\cmake.exe --build C:\\Users\\JerryZhu\\Desktop\\breakpaddemo\\breakpadlib\\.cxx\\cmake\\debug\\arm64-v8a --target breakpad",
+      "buildCommand": "E:\\adt-bundle-windows-x86_64\\sdk_as\\cmake\\3.6.4111459\\bin\\cmake.exe --build C:\\Users\\JerryZhu\\Desktop\\breakpad-android\\breakpadlib\\.cxx\\cmake\\debug\\arm64-v8a --target breakpad",
       "abi": "arm64-v8a",
-      "output": "C:\\Users\\JerryZhu\\Desktop\\breakpaddemo\\breakpadlib\\.cxx\\cmake\\debug\\arm64-v8a\\breakpad\\libbreakpad.a"
+      "output": "C:\\Users\\JerryZhu\\Desktop\\breakpad-android\\breakpadlib\\.cxx\\cmake\\debug\\arm64-v8a\\breakpad\\libbreakpad.a"
     },
     "breakpad_core-Debug-arm64-v8a": {
       "artifactName": "breakpad_core",
-      "buildCommand": "E:\\adt-bundle-windows-x86_64\\sdk_as\\cmake\\3.6.4111459\\bin\\cmake.exe --build C:\\Users\\JerryZhu\\Desktop\\breakpaddemo\\breakpadlib\\.cxx\\cmake\\debug\\arm64-v8a --target breakpad_core",
+      "buildCommand": "E:\\adt-bundle-windows-x86_64\\sdk_as\\cmake\\3.6.4111459\\bin\\cmake.exe --build C:\\Users\\JerryZhu\\Desktop\\breakpad-android\\breakpadlib\\.cxx\\cmake\\debug\\arm64-v8a --target breakpad_core",
       "abi": "arm64-v8a",
-      "output": "C:\\Users\\JerryZhu\\Desktop\\breakpaddemo\\breakpadlib\\build\\intermediates\\cmake\\debug\\obj\\arm64-v8a\\libbreakpad_core.so"
+      "output": "C:\\Users\\JerryZhu\\Desktop\\breakpad-android\\breakpadlib\\build\\intermediates\\cmake\\debug\\obj\\arm64-v8a\\libbreakpad_core.so"
     }
   }
 }

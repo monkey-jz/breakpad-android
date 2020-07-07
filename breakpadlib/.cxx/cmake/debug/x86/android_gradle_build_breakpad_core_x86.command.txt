@@ -1,8 +1,0 @@
-Executable : E:\adt-bundle-windows-x86_64\sdk_as\cmake\3.6.4111459\bin\cmake.exe
-arguments : 
---build
-C:\Users\JerryZhu\Desktop\breakpaddemo\breakpadlib\.cxx\cmake\debug\x86
---target
-breakpad_core
-jvmArgs : 
-

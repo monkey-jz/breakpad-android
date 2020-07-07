@@ -11,7 +11,7 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
 
-The C compiler identification is GNU, found in "C:/Users/JerryZhu/Desktop/breakpaddemo/breakpadlib/.cxx/cmake/release/x86/CMakeFiles/3.6.0-rc2/CompilerIdC/CMakeCCompilerId.o"
+The C compiler identification is GNU, found in "C:/Users/JerryZhu/Desktop/breakpad-android/breakpadlib/.cxx/cmake/release/x86/CMakeFiles/3.6.0-rc2/CompilerIdC/CMakeCCompilerId.o"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler: E:/adt-bundle-windows-x86_64/android-ndk-r16b/toolchains/x86-4.9/prebuilt/windows-x86_64/bin/i686-linux-android-g++.exe 
@@ -24,22 +24,22 @@ The output was:
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
 
-The CXX compiler identification is GNU, found in "C:/Users/JerryZhu/Desktop/breakpaddemo/breakpadlib/.cxx/cmake/release/x86/CMakeFiles/3.6.0-rc2/CompilerIdCXX/CMakeCXXCompilerId.o"
+The CXX compiler identification is GNU, found in "C:/Users/JerryZhu/Desktop/breakpad-android/breakpadlib/.cxx/cmake/release/x86/CMakeFiles/3.6.0-rc2/CompilerIdCXX/CMakeCXXCompilerId.o"
 
 Determining if the C compiler works passed with the following output:
-Change Dir: C:/Users/JerryZhu/Desktop/breakpaddemo/breakpadlib/.cxx/cmake/release/x86/CMakeFiles/CMakeTmp
+Change Dir: C:/Users/JerryZhu/Desktop/breakpad-android/breakpadlib/.cxx/cmake/release/x86/CMakeFiles/CMakeTmp
 
-Run Build Command:"E:\adt-bundle-windows-x86_64\sdk_as\cmake\3.6.4111459\bin\ninja.exe" "cmTC_2e86a"
-[1/2] Building C object CMakeFiles/cmTC_2e86a.dir/testCCompiler.c.o
-[2/2] Linking C executable cmTC_2e86a
+Run Build Command:"E:\adt-bundle-windows-x86_64\sdk_as\cmake\3.6.4111459\bin\ninja.exe" "cmTC_22fe3"
+[1/2] Building C object CMakeFiles/cmTC_22fe3.dir/testCCompiler.c.o
+[2/2] Linking C executable cmTC_22fe3
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: C:/Users/JerryZhu/Desktop/breakpaddemo/breakpadlib/.cxx/cmake/release/x86/CMakeFiles/CMakeTmp
+Change Dir: C:/Users/JerryZhu/Desktop/breakpad-android/breakpadlib/.cxx/cmake/release/x86/CMakeFiles/CMakeTmp
 
-Run Build Command:"E:\adt-bundle-windows-x86_64\sdk_as\cmake\3.6.4111459\bin\ninja.exe" "cmTC_12f6f"
-[1/2] Building C object CMakeFiles/cmTC_12f6f.dir/CMakeCCompilerABI.c.o
-[2/2] Linking C executable cmTC_12f6f
+Run Build Command:"E:\adt-bundle-windows-x86_64\sdk_as\cmake\3.6.4111459\bin\ninja.exe" "cmTC_ba390"
+[1/2] Building C object CMakeFiles/cmTC_ba390.dir/CMakeCCompilerABI.c.o
+[2/2] Linking C executable cmTC_ba390
 Using built-in specs.
 COLLECT_GCC=E:\adt-bundle-windows-x86_64\android-ndk-r16b\toolchains\x86-4.9\prebuilt\windows-x86_64\bin\i686-linux-android-gcc.exe
 COLLECT_LTO_WRAPPER=E:/adt-bundle-windows-x86_64/android-ndk-r16b/toolchains/x86-4.9/prebuilt/windows-x86_64/bin/../libexec/gcc/i686-linux-android/4.9.x/lto-wrapper.exe
@@ -49,17 +49,17 @@ Thread model: posix
 gcc version 4.9.x 20150123 (prerelease) (GCC) 
 COMPILER_PATH=E:/adt-bundle-windows-x86_64/android-ndk-r16b/toolchains/x86-4.9/prebuilt/windows-x86_64/bin/../libexec/gcc/i686-linux-android/4.9.x/;E:/adt-bundle-windows-x86_64/android-ndk-r16b/toolchains/x86-4.9/prebuilt/windows-x86_64/bin/../libexec/gcc/;E:/adt-bundle-windows-x86_64/android-ndk-r16b/toolchains/x86-4.9/prebuilt/windows-x86_64/bin/../lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/bin/
 LIBRARY_PATH=E:/adt-bundle-windows-x86_64/android-ndk-r16b/toolchains/x86-4.9/prebuilt/windows-x86_64/bin/../lib/gcc/i686-linux-android/4.9.x/;E:/adt-bundle-windows-x86_64/android-ndk-r16b/toolchains/x86-4.9/prebuilt/windows-x86_64/bin/../lib/gcc/;E:/adt-bundle-windows-x86_64/android-ndk-r16b/toolchains/x86-4.9/prebuilt/windows-x86_64/bin/../lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/lib/;E:/adt-bundle-windows-x86_64/android-ndk-r16b/platforms/android-16/arch-x86/usr/lib/
-COLLECT_GCC_OPTIONS='-isystem' 'E:/adt-bundle-windows-x86_64/android-ndk-r16b/sysroot/usr/include/i686-linux-android' '-D' '__ANDROID_API__=16' '-g' '-D' 'ANDROID' '-ffunction-sections' '-funwind-tables' '-fstack-protector-strong' '-mstackrealign' '-Wformat=1' '-Werror=format-security' '-pie' '-fPIE' '-v' '-o' 'cmTC_12f6f' '-mtune=intel' '-march=i686'
- E:/adt-bundle-windows-x86_64/android-ndk-r16b/toolchains/x86-4.9/prebuilt/windows-x86_64/bin/../libexec/gcc/i686-linux-android/4.9.x/collect2.exe -plugin E:/adt-bundle-windows-x86_64/android-ndk-r16b/toolchains/x86-4.9/prebuilt/windows-x86_64/bin/../libexec/gcc/i686-linux-android/4.9.x/liblto_plugin-0.dll -plugin-opt=E:/adt-bundle-windows-x86_64/android-ndk-r16b/toolchains/x86-4.9/prebuilt/windows-x86_64/bin/../libexec/gcc/i686-linux-android/4.9.x/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\JerryZhu\AppData\Local\Temp\ccU3IDkZ.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-ldl -plugin-opt=-pass-through=-lgcc --sysroot=E:/adt-bundle-windows-x86_64/android-ndk-r16b/platforms/android-16/arch-x86 --eh-frame-hdr -m elf_i386 -dynamic-linker /system/bin/linker -z noexecstack -z relro -z now -pie -o cmTC_12f6f E:/adt-bundle-windows-x86_64/android-ndk-r16b/platforms/android-16/arch-x86/usr/lib/crtbegin_dynamic.o -LE:/adt-bundle-windows-x86_64/android-ndk-r16b/toolchains/x86-4.9/prebuilt/windows-x86_64/bin/../lib/gcc/i686-linux-android/4.9.x -LE:/adt-bundle-windows-x86_64/android-ndk-r16b/toolchains/x86-4.9/prebuilt/windows-x86_64/bin/../lib/gcc -LE:/adt-bundle-windows-x86_64/android-ndk-r16b/toolchains/x86-4.9/prebuilt/windows-x86_64/bin/../lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/lib -LE:/adt-bundle-windows-x86_64/android-ndk-r16b/platforms/android-16/arch-x86/usr/lib --exclude-libs libgcc.a --exclude-libs libatomic.a --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc CMakeFiles/cmTC_12f6f.dir/CMakeCCompilerABI.c.o -lgcc -lc -ldl -lgcc E:/adt-bundle-windows-x86_64/android-ndk-r16b/platforms/android-16/arch-x86/usr/lib/crtend_android.o
+COLLECT_GCC_OPTIONS='-isystem' 'E:/adt-bundle-windows-x86_64/android-ndk-r16b/sysroot/usr/include/i686-linux-android' '-D' '__ANDROID_API__=16' '-g' '-D' 'ANDROID' '-ffunction-sections' '-funwind-tables' '-fstack-protector-strong' '-mstackrealign' '-Wformat=1' '-Werror=format-security' '-pie' '-fPIE' '-v' '-o' 'cmTC_ba390' '-mtune=intel' '-march=i686'
+ E:/adt-bundle-windows-x86_64/android-ndk-r16b/toolchains/x86-4.9/prebuilt/windows-x86_64/bin/../libexec/gcc/i686-linux-android/4.9.x/collect2.exe -plugin E:/adt-bundle-windows-x86_64/android-ndk-r16b/toolchains/x86-4.9/prebuilt/windows-x86_64/bin/../libexec/gcc/i686-linux-android/4.9.x/liblto_plugin-0.dll -plugin-opt=E:/adt-bundle-windows-x86_64/android-ndk-r16b/toolchains/x86-4.9/prebuilt/windows-x86_64/bin/../libexec/gcc/i686-linux-android/4.9.x/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\JerryZhu\AppData\Local\Temp\cc0YB3j2.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-ldl -plugin-opt=-pass-through=-lgcc --sysroot=E:/adt-bundle-windows-x86_64/android-ndk-r16b/platforms/android-16/arch-x86 --eh-frame-hdr -m elf_i386 -dynamic-linker /system/bin/linker -z noexecstack -z relro -z now -pie -o cmTC_ba390 E:/adt-bundle-windows-x86_64/android-ndk-r16b/platforms/android-16/arch-x86/usr/lib/crtbegin_dynamic.o -LE:/adt-bundle-windows-x86_64/android-ndk-r16b/toolchains/x86-4.9/prebuilt/windows-x86_64/bin/../lib/gcc/i686-linux-android/4.9.x -LE:/adt-bundle-windows-x86_64/android-ndk-r16b/toolchains/x86-4.9/prebuilt/windows-x86_64/bin/../lib/gcc -LE:/adt-bundle-windows-x86_64/android-ndk-r16b/toolchains/x86-4.9/prebuilt/windows-x86_64/bin/../lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/lib -LE:/adt-bundle-windows-x86_64/android-ndk-r16b/platforms/android-16/arch-x86/usr/lib --exclude-libs libgcc.a --exclude-libs libatomic.a --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc CMakeFiles/cmTC_ba390.dir/CMakeCCompilerABI.c.o -lgcc -lc -ldl -lgcc E:/adt-bundle-windows-x86_64/android-ndk-r16b/platforms/android-16/arch-x86/usr/lib/crtend_android.o
 
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(i686-linux-android-ld\.exe|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: C:/Users/JerryZhu/Desktop/breakpaddemo/breakpadlib/.cxx/cmake/release/x86/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: C:/Users/JerryZhu/Desktop/breakpad-android/breakpadlib/.cxx/cmake/release/x86/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"E:\adt-bundle-windows-x86_64\sdk_as\cmake\3.6.4111459\bin\ninja.exe" "cmTC_12f6f"]
-  ignore line: [[1/2] Building C object CMakeFiles/cmTC_12f6f.dir/CMakeCCompilerABI.c.o]
-  ignore line: [[2/2] Linking C executable cmTC_12f6f]
+  ignore line: [Run Build Command:"E:\adt-bundle-windows-x86_64\sdk_as\cmake\3.6.4111459\bin\ninja.exe" "cmTC_ba390"]
+  ignore line: [[1/2] Building C object CMakeFiles/cmTC_ba390.dir/CMakeCCompilerABI.c.o]
+  ignore line: [[2/2] Linking C executable cmTC_ba390]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=E:\adt-bundle-windows-x86_64\android-ndk-r16b\toolchains\x86-4.9\prebuilt\windows-x86_64\bin\i686-linux-android-gcc.exe]
   ignore line: [COLLECT_LTO_WRAPPER=E:/adt-bundle-windows-x86_64/android-ndk-r16b/toolchains/x86-4.9/prebuilt/windows-x86_64/bin/../libexec/gcc/i686-linux-android/4.9.x/lto-wrapper.exe]
@@ -74,13 +74,13 @@ Parsed C implicit link information from above output:
   ignore line: [E:/adt-bundle-windows-x86_64/android-ndk-r16b/toolchains/x86-4.9/prebuilt/windows-x86_64/bin/../lib/gcc/]
   ignore line: [E:/adt-bundle-windows-x86_64/android-ndk-r16b/toolchains/x86-4.9/prebuilt/windows-x86_64/bin/../lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/lib/]
   ignore line: [E:/adt-bundle-windows-x86_64/android-ndk-r16b/platforms/android-16/arch-x86/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-isystem' 'E:/adt-bundle-windows-x86_64/android-ndk-r16b/sysroot/usr/include/i686-linux-android' '-D' '__ANDROID_API__=16' '-g' '-D' 'ANDROID' '-ffunction-sections' '-funwind-tables' '-fstack-protector-strong' '-mstackrealign' '-Wformat=1' '-Werror=format-security' '-pie' '-fPIE' '-v' '-o' 'cmTC_12f6f' '-mtune=intel' '-march=i686']
-  link line: [ E:/adt-bundle-windows-x86_64/android-ndk-r16b/toolchains/x86-4.9/prebuilt/windows-x86_64/bin/../libexec/gcc/i686-linux-android/4.9.x/collect2.exe -plugin E:/adt-bundle-windows-x86_64/android-ndk-r16b/toolchains/x86-4.9/prebuilt/windows-x86_64/bin/../libexec/gcc/i686-linux-android/4.9.x/liblto_plugin-0.dll -plugin-opt=E:/adt-bundle-windows-x86_64/android-ndk-r16b/toolchains/x86-4.9/prebuilt/windows-x86_64/bin/../libexec/gcc/i686-linux-android/4.9.x/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\JerryZhu\AppData\Local\Temp\ccU3IDkZ.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-ldl -plugin-opt=-pass-through=-lgcc --sysroot=E:/adt-bundle-windows-x86_64/android-ndk-r16b/platforms/android-16/arch-x86 --eh-frame-hdr -m elf_i386 -dynamic-linker /system/bin/linker -z noexecstack -z relro -z now -pie -o cmTC_12f6f E:/adt-bundle-windows-x86_64/android-ndk-r16b/platforms/android-16/arch-x86/usr/lib/crtbegin_dynamic.o -LE:/adt-bundle-windows-x86_64/android-ndk-r16b/toolchains/x86-4.9/prebuilt/windows-x86_64/bin/../lib/gcc/i686-linux-android/4.9.x -LE:/adt-bundle-windows-x86_64/android-ndk-r16b/toolchains/x86-4.9/prebuilt/windows-x86_64/bin/../lib/gcc -LE:/adt-bundle-windows-x86_64/android-ndk-r16b/toolchains/x86-4.9/prebuilt/windows-x86_64/bin/../lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/lib -LE:/adt-bundle-windows-x86_64/android-ndk-r16b/platforms/android-16/arch-x86/usr/lib --exclude-libs libgcc.a --exclude-libs libatomic.a --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc CMakeFiles/cmTC_12f6f.dir/CMakeCCompilerABI.c.o -lgcc -lc -ldl -lgcc E:/adt-bundle-windows-x86_64/android-ndk-r16b/platforms/android-16/arch-x86/usr/lib/crtend_android.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-isystem' 'E:/adt-bundle-windows-x86_64/android-ndk-r16b/sysroot/usr/include/i686-linux-android' '-D' '__ANDROID_API__=16' '-g' '-D' 'ANDROID' '-ffunction-sections' '-funwind-tables' '-fstack-protector-strong' '-mstackrealign' '-Wformat=1' '-Werror=format-security' '-pie' '-fPIE' '-v' '-o' 'cmTC_ba390' '-mtune=intel' '-march=i686']
+  link line: [ E:/adt-bundle-windows-x86_64/android-ndk-r16b/toolchains/x86-4.9/prebuilt/windows-x86_64/bin/../libexec/gcc/i686-linux-android/4.9.x/collect2.exe -plugin E:/adt-bundle-windows-x86_64/android-ndk-r16b/toolchains/x86-4.9/prebuilt/windows-x86_64/bin/../libexec/gcc/i686-linux-android/4.9.x/liblto_plugin-0.dll -plugin-opt=E:/adt-bundle-windows-x86_64/android-ndk-r16b/toolchains/x86-4.9/prebuilt/windows-x86_64/bin/../libexec/gcc/i686-linux-android/4.9.x/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\JerryZhu\AppData\Local\Temp\cc0YB3j2.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-ldl -plugin-opt=-pass-through=-lgcc --sysroot=E:/adt-bundle-windows-x86_64/android-ndk-r16b/platforms/android-16/arch-x86 --eh-frame-hdr -m elf_i386 -dynamic-linker /system/bin/linker -z noexecstack -z relro -z now -pie -o cmTC_ba390 E:/adt-bundle-windows-x86_64/android-ndk-r16b/platforms/android-16/arch-x86/usr/lib/crtbegin_dynamic.o -LE:/adt-bundle-windows-x86_64/android-ndk-r16b/toolchains/x86-4.9/prebuilt/windows-x86_64/bin/../lib/gcc/i686-linux-android/4.9.x -LE:/adt-bundle-windows-x86_64/android-ndk-r16b/toolchains/x86-4.9/prebuilt/windows-x86_64/bin/../lib/gcc -LE:/adt-bundle-windows-x86_64/android-ndk-r16b/toolchains/x86-4.9/prebuilt/windows-x86_64/bin/../lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/lib -LE:/adt-bundle-windows-x86_64/android-ndk-r16b/platforms/android-16/arch-x86/usr/lib --exclude-libs libgcc.a --exclude-libs libatomic.a --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc CMakeFiles/cmTC_ba390.dir/CMakeCCompilerABI.c.o -lgcc -lc -ldl -lgcc E:/adt-bundle-windows-x86_64/android-ndk-r16b/platforms/android-16/arch-x86/usr/lib/crtend_android.o]
     arg [E:/adt-bundle-windows-x86_64/android-ndk-r16b/toolchains/x86-4.9/prebuilt/windows-x86_64/bin/../libexec/gcc/i686-linux-android/4.9.x/collect2.exe] ==> ignore
     arg [-plugin] ==> ignore
     arg [E:/adt-bundle-windows-x86_64/android-ndk-r16b/toolchains/x86-4.9/prebuilt/windows-x86_64/bin/../libexec/gcc/i686-linux-android/4.9.x/liblto_plugin-0.dll] ==> ignore
     arg [-plugin-opt=E:/adt-bundle-windows-x86_64/android-ndk-r16b/toolchains/x86-4.9/prebuilt/windows-x86_64/bin/../libexec/gcc/i686-linux-android/4.9.x/lto-wrapper.exe] ==> ignore
-    arg [-plugin-opt=-fresolution=C:UsersJerryZhuAppDataLocalTempccU3IDkZ.res] ==> ignore
+    arg [-plugin-opt=-fresolution=C:UsersJerryZhuAppDataLocalTempcc0YB3j2.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
     arg [-plugin-opt=-pass-through=-ldl] ==> ignore
@@ -96,7 +96,7 @@ Parsed C implicit link information from above output:
     arg [-znow] ==> ignore
     arg [-pie] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_12f6f] ==> ignore
+    arg [cmTC_ba390] ==> ignore
     arg [E:/adt-bundle-windows-x86_64/android-ndk-r16b/platforms/android-16/arch-x86/usr/lib/crtbegin_dynamic.o] ==> ignore
     arg [-LE:/adt-bundle-windows-x86_64/android-ndk-r16b/toolchains/x86-4.9/prebuilt/windows-x86_64/bin/../lib/gcc/i686-linux-android/4.9.x] ==> dir [E:/adt-bundle-windows-x86_64/android-ndk-r16b/toolchains/x86-4.9/prebuilt/windows-x86_64/bin/../lib/gcc/i686-linux-android/4.9.x]
     arg [-LE:/adt-bundle-windows-x86_64/android-ndk-r16b/toolchains/x86-4.9/prebuilt/windows-x86_64/bin/../lib/gcc] ==> dir [E:/adt-bundle-windows-x86_64/android-ndk-r16b/toolchains/x86-4.9/prebuilt/windows-x86_64/bin/../lib/gcc]
@@ -115,7 +115,7 @@ Parsed C implicit link information from above output:
     arg [-znow] ==> ignore
     arg [--gc-sections] ==> ignore
     arg [-znocopyreloc] ==> ignore
-    arg [CMakeFiles/cmTC_12f6f.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_ba390.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [-lc] ==> lib [c]
     arg [-ldl] ==> lib [dl]
@@ -135,11 +135,11 @@ Parsed C implicit link information from above output:
 
 
 Detecting C [-std=c11] compiler features compiled with the following output:
-Change Dir: C:/Users/JerryZhu/Desktop/breakpaddemo/breakpadlib/.cxx/cmake/release/x86/CMakeFiles/CMakeTmp
+Change Dir: C:/Users/JerryZhu/Desktop/breakpad-android/breakpadlib/.cxx/cmake/release/x86/CMakeFiles/CMakeTmp
 
-Run Build Command:"E:\adt-bundle-windows-x86_64\sdk_as\cmake\3.6.4111459\bin\ninja.exe" "cmTC_66846"
-[1/2] Building C object CMakeFiles/cmTC_66846.dir/feature_tests.c.o
-[2/2] Linking C executable cmTC_66846
+Run Build Command:"E:\adt-bundle-windows-x86_64\sdk_as\cmake\3.6.4111459\bin\ninja.exe" "cmTC_f5181"
+[1/2] Building C object CMakeFiles/cmTC_f5181.dir/feature_tests.c.o
+[2/2] Linking C executable cmTC_f5181
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -149,11 +149,11 @@ Run Build Command:"E:\adt-bundle-windows-x86_64\sdk_as\cmake\3.6.4111459\bin\nin
 
 
 Detecting C [-std=c99] compiler features compiled with the following output:
-Change Dir: C:/Users/JerryZhu/Desktop/breakpaddemo/breakpadlib/.cxx/cmake/release/x86/CMakeFiles/CMakeTmp
+Change Dir: C:/Users/JerryZhu/Desktop/breakpad-android/breakpadlib/.cxx/cmake/release/x86/CMakeFiles/CMakeTmp
 
-Run Build Command:"E:\adt-bundle-windows-x86_64\sdk_as\cmake\3.6.4111459\bin\ninja.exe" "cmTC_df75d"
-[1/2] Building C object CMakeFiles/cmTC_df75d.dir/feature_tests.c.o
-[2/2] Linking C executable cmTC_df75d
+Run Build Command:"E:\adt-bundle-windows-x86_64\sdk_as\cmake\3.6.4111459\bin\ninja.exe" "cmTC_173d4"
+[1/2] Building C object CMakeFiles/cmTC_173d4.dir/feature_tests.c.o
+[2/2] Linking C executable cmTC_173d4
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -163,11 +163,11 @@ Run Build Command:"E:\adt-bundle-windows-x86_64\sdk_as\cmake\3.6.4111459\bin\nin
 
 
 Detecting C [-std=c90] compiler features compiled with the following output:
-Change Dir: C:/Users/JerryZhu/Desktop/breakpaddemo/breakpadlib/.cxx/cmake/release/x86/CMakeFiles/CMakeTmp
+Change Dir: C:/Users/JerryZhu/Desktop/breakpad-android/breakpadlib/.cxx/cmake/release/x86/CMakeFiles/CMakeTmp
 
-Run Build Command:"E:\adt-bundle-windows-x86_64\sdk_as\cmake\3.6.4111459\bin\ninja.exe" "cmTC_30d6b"
-[1/2] Building C object CMakeFiles/cmTC_30d6b.dir/feature_tests.c.o
-[2/2] Linking C executable cmTC_30d6b
+Run Build Command:"E:\adt-bundle-windows-x86_64\sdk_as\cmake\3.6.4111459\bin\ninja.exe" "cmTC_5e1d8"
+[1/2] Building C object CMakeFiles/cmTC_5e1d8.dir/feature_tests.c.o
+[2/2] Linking C executable cmTC_5e1d8
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -175,19 +175,19 @@ Run Build Command:"E:\adt-bundle-windows-x86_64\sdk_as\cmake\3.6.4111459\bin\nin
     Feature record: C_FEATURE:0c_static_assert
     Feature record: C_FEATURE:0c_variadic_macros
 Determining if the CXX compiler works passed with the following output:
-Change Dir: C:/Users/JerryZhu/Desktop/breakpaddemo/breakpadlib/.cxx/cmake/release/x86/CMakeFiles/CMakeTmp
+Change Dir: C:/Users/JerryZhu/Desktop/breakpad-android/breakpadlib/.cxx/cmake/release/x86/CMakeFiles/CMakeTmp
 
-Run Build Command:"E:\adt-bundle-windows-x86_64\sdk_as\cmake\3.6.4111459\bin\ninja.exe" "cmTC_519df"
-[1/2] Building CXX object CMakeFiles/cmTC_519df.dir/testCXXCompiler.cxx.o
-[2/2] Linking CXX executable cmTC_519df
+Run Build Command:"E:\adt-bundle-windows-x86_64\sdk_as\cmake\3.6.4111459\bin\ninja.exe" "cmTC_5bfd4"
+[1/2] Building CXX object CMakeFiles/cmTC_5bfd4.dir/testCXXCompiler.cxx.o
+[2/2] Linking CXX executable cmTC_5bfd4
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: C:/Users/JerryZhu/Desktop/breakpaddemo/breakpadlib/.cxx/cmake/release/x86/CMakeFiles/CMakeTmp
+Change Dir: C:/Users/JerryZhu/Desktop/breakpad-android/breakpadlib/.cxx/cmake/release/x86/CMakeFiles/CMakeTmp
 
-Run Build Command:"E:\adt-bundle-windows-x86_64\sdk_as\cmake\3.6.4111459\bin\ninja.exe" "cmTC_103bb"
-[1/2] Building CXX object CMakeFiles/cmTC_103bb.dir/CMakeCXXCompilerABI.cpp.o
-[2/2] Linking CXX executable cmTC_103bb
+Run Build Command:"E:\adt-bundle-windows-x86_64\sdk_as\cmake\3.6.4111459\bin\ninja.exe" "cmTC_4a5ca"
+[1/2] Building CXX object CMakeFiles/cmTC_4a5ca.dir/CMakeCXXCompilerABI.cpp.o
+[2/2] Linking CXX executable cmTC_4a5ca
 Using built-in specs.
 COLLECT_GCC=E:\adt-bundle-windows-x86_64\android-ndk-r16b\toolchains\x86-4.9\prebuilt\windows-x86_64\bin\i686-linux-android-g++.exe
 COLLECT_LTO_WRAPPER=E:/adt-bundle-windows-x86_64/android-ndk-r16b/toolchains/x86-4.9/prebuilt/windows-x86_64/bin/../libexec/gcc/i686-linux-android/4.9.x/lto-wrapper.exe
@@ -197,17 +197,17 @@ Thread model: posix
 gcc version 4.9.x 20150123 (prerelease) (GCC) 
 COMPILER_PATH=E:/adt-bundle-windows-x86_64/android-ndk-r16b/toolchains/x86-4.9/prebuilt/windows-x86_64/bin/../libexec/gcc/i686-linux-android/4.9.x/;E:/adt-bundle-windows-x86_64/android-ndk-r16b/toolchains/x86-4.9/prebuilt/windows-x86_64/bin/../libexec/gcc/;E:/adt-bundle-windows-x86_64/android-ndk-r16b/toolchains/x86-4.9/prebuilt/windows-x86_64/bin/../lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/bin/
 LIBRARY_PATH=E:/adt-bundle-windows-x86_64/android-ndk-r16b/toolchains/x86-4.9/prebuilt/windows-x86_64/bin/../lib/gcc/i686-linux-android/4.9.x/;E:/adt-bundle-windows-x86_64/android-ndk-r16b/toolchains/x86-4.9/prebuilt/windows-x86_64/bin/../lib/gcc/;E:/adt-bundle-windows-x86_64/android-ndk-r16b/toolchains/x86-4.9/prebuilt/windows-x86_64/bin/../lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/lib/;E:/adt-bundle-windows-x86_64/android-ndk-r16b/platforms/android-16/arch-x86/usr/lib/
-COLLECT_GCC_OPTIONS='-isystem' 'E:/adt-bundle-windows-x86_64/android-ndk-r16b/sysroot/usr/include/i686-linux-android' '-D' '__ANDROID_API__=16' '-g' '-D' 'ANDROID' '-ffunction-sections' '-funwind-tables' '-fstack-protector-strong' '-mstackrealign' '-Wformat=1' '-Werror=format-security' '-std=c++11' '-pie' '-fPIE' '-v' '-o' 'cmTC_103bb' '-mtune=intel' '-march=i686'
- E:/adt-bundle-windows-x86_64/android-ndk-r16b/toolchains/x86-4.9/prebuilt/windows-x86_64/bin/../libexec/gcc/i686-linux-android/4.9.x/collect2.exe -plugin E:/adt-bundle-windows-x86_64/android-ndk-r16b/toolchains/x86-4.9/prebuilt/windows-x86_64/bin/../libexec/gcc/i686-linux-android/4.9.x/liblto_plugin-0.dll -plugin-opt=E:/adt-bundle-windows-x86_64/android-ndk-r16b/toolchains/x86-4.9/prebuilt/windows-x86_64/bin/../libexec/gcc/i686-linux-android/4.9.x/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\JerryZhu\AppData\Local\Temp\cc5oYIEG.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-ldl -plugin-opt=-pass-through=-lgcc --sysroot=E:/adt-bundle-windows-x86_64/android-ndk-r16b/platforms/android-16/arch-x86 --eh-frame-hdr -m elf_i386 -dynamic-linker /system/bin/linker -z noexecstack -z relro -z now -pie -o cmTC_103bb E:/adt-bundle-windows-x86_64/android-ndk-r16b/platforms/android-16/arch-x86/usr/lib/crtbegin_dynamic.o -LE:/adt-bundle-windows-x86_64/android-ndk-r16b/toolchains/x86-4.9/prebuilt/windows-x86_64/bin/../lib/gcc/i686-linux-android/4.9.x -LE:/adt-bundle-windows-x86_64/android-ndk-r16b/toolchains/x86-4.9/prebuilt/windows-x86_64/bin/../lib/gcc -LE:/adt-bundle-windows-x86_64/android-ndk-r16b/toolchains/x86-4.9/prebuilt/windows-x86_64/bin/../lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/lib -LE:/adt-bundle-windows-x86_64/android-ndk-r16b/platforms/android-16/arch-x86/usr/lib --exclude-libs libgcc.a --exclude-libs libatomic.a --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc CMakeFiles/cmTC_103bb.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc -lc -ldl -lgcc E:/adt-bundle-windows-x86_64/android-ndk-r16b/platforms/android-16/arch-x86/usr/lib/crtend_android.o
+COLLECT_GCC_OPTIONS='-isystem' 'E:/adt-bundle-windows-x86_64/android-ndk-r16b/sysroot/usr/include/i686-linux-android' '-D' '__ANDROID_API__=16' '-g' '-D' 'ANDROID' '-ffunction-sections' '-funwind-tables' '-fstack-protector-strong' '-mstackrealign' '-Wformat=1' '-Werror=format-security' '-std=c++11' '-pie' '-fPIE' '-v' '-o' 'cmTC_4a5ca' '-mtune=intel' '-march=i686'
+ E:/adt-bundle-windows-x86_64/android-ndk-r16b/toolchains/x86-4.9/prebuilt/windows-x86_64/bin/../libexec/gcc/i686-linux-android/4.9.x/collect2.exe -plugin E:/adt-bundle-windows-x86_64/android-ndk-r16b/toolchains/x86-4.9/prebuilt/windows-x86_64/bin/../libexec/gcc/i686-linux-android/4.9.x/liblto_plugin-0.dll -plugin-opt=E:/adt-bundle-windows-x86_64/android-ndk-r16b/toolchains/x86-4.9/prebuilt/windows-x86_64/bin/../libexec/gcc/i686-linux-android/4.9.x/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\JerryZhu\AppData\Local\Temp\ccBZSrQc.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-ldl -plugin-opt=-pass-through=-lgcc --sysroot=E:/adt-bundle-windows-x86_64/android-ndk-r16b/platforms/android-16/arch-x86 --eh-frame-hdr -m elf_i386 -dynamic-linker /system/bin/linker -z noexecstack -z relro -z now -pie -o cmTC_4a5ca E:/adt-bundle-windows-x86_64/android-ndk-r16b/platforms/android-16/arch-x86/usr/lib/crtbegin_dynamic.o -LE:/adt-bundle-windows-x86_64/android-ndk-r16b/toolchains/x86-4.9/prebuilt/windows-x86_64/bin/../lib/gcc/i686-linux-android/4.9.x -LE:/adt-bundle-windows-x86_64/android-ndk-r16b/toolchains/x86-4.9/prebuilt/windows-x86_64/bin/../lib/gcc -LE:/adt-bundle-windows-x86_64/android-ndk-r16b/toolchains/x86-4.9/prebuilt/windows-x86_64/bin/../lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/lib -LE:/adt-bundle-windows-x86_64/android-ndk-r16b/platforms/android-16/arch-x86/usr/lib --exclude-libs libgcc.a --exclude-libs libatomic.a --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc CMakeFiles/cmTC_4a5ca.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc -lc -ldl -lgcc E:/adt-bundle-windows-x86_64/android-ndk-r16b/platforms/android-16/arch-x86/usr/lib/crtend_android.o
 
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(i686-linux-android-ld\.exe|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: C:/Users/JerryZhu/Desktop/breakpaddemo/breakpadlib/.cxx/cmake/release/x86/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: C:/Users/JerryZhu/Desktop/breakpad-android/breakpadlib/.cxx/cmake/release/x86/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"E:\adt-bundle-windows-x86_64\sdk_as\cmake\3.6.4111459\bin\ninja.exe" "cmTC_103bb"]
-  ignore line: [[1/2] Building CXX object CMakeFiles/cmTC_103bb.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [[2/2] Linking CXX executable cmTC_103bb]
+  ignore line: [Run Build Command:"E:\adt-bundle-windows-x86_64\sdk_as\cmake\3.6.4111459\bin\ninja.exe" "cmTC_4a5ca"]
+  ignore line: [[1/2] Building CXX object CMakeFiles/cmTC_4a5ca.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [[2/2] Linking CXX executable cmTC_4a5ca]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=E:\adt-bundle-windows-x86_64\android-ndk-r16b\toolchains\x86-4.9\prebuilt\windows-x86_64\bin\i686-linux-android-g++.exe]
   ignore line: [COLLECT_LTO_WRAPPER=E:/adt-bundle-windows-x86_64/android-ndk-r16b/toolchains/x86-4.9/prebuilt/windows-x86_64/bin/../libexec/gcc/i686-linux-android/4.9.x/lto-wrapper.exe]
@@ -222,13 +222,13 @@ Parsed CXX implicit link information from above output:
   ignore line: [E:/adt-bundle-windows-x86_64/android-ndk-r16b/toolchains/x86-4.9/prebuilt/windows-x86_64/bin/../lib/gcc/]
   ignore line: [E:/adt-bundle-windows-x86_64/android-ndk-r16b/toolchains/x86-4.9/prebuilt/windows-x86_64/bin/../lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/lib/]
   ignore line: [E:/adt-bundle-windows-x86_64/android-ndk-r16b/platforms/android-16/arch-x86/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-isystem' 'E:/adt-bundle-windows-x86_64/android-ndk-r16b/sysroot/usr/include/i686-linux-android' '-D' '__ANDROID_API__=16' '-g' '-D' 'ANDROID' '-ffunction-sections' '-funwind-tables' '-fstack-protector-strong' '-mstackrealign' '-Wformat=1' '-Werror=format-security' '-std=c++11' '-pie' '-fPIE' '-v' '-o' 'cmTC_103bb' '-mtune=intel' '-march=i686']
-  link line: [ E:/adt-bundle-windows-x86_64/android-ndk-r16b/toolchains/x86-4.9/prebuilt/windows-x86_64/bin/../libexec/gcc/i686-linux-android/4.9.x/collect2.exe -plugin E:/adt-bundle-windows-x86_64/android-ndk-r16b/toolchains/x86-4.9/prebuilt/windows-x86_64/bin/../libexec/gcc/i686-linux-android/4.9.x/liblto_plugin-0.dll -plugin-opt=E:/adt-bundle-windows-x86_64/android-ndk-r16b/toolchains/x86-4.9/prebuilt/windows-x86_64/bin/../libexec/gcc/i686-linux-android/4.9.x/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\JerryZhu\AppData\Local\Temp\cc5oYIEG.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-ldl -plugin-opt=-pass-through=-lgcc --sysroot=E:/adt-bundle-windows-x86_64/android-ndk-r16b/platforms/android-16/arch-x86 --eh-frame-hdr -m elf_i386 -dynamic-linker /system/bin/linker -z noexecstack -z relro -z now -pie -o cmTC_103bb E:/adt-bundle-windows-x86_64/android-ndk-r16b/platforms/android-16/arch-x86/usr/lib/crtbegin_dynamic.o -LE:/adt-bundle-windows-x86_64/android-ndk-r16b/toolchains/x86-4.9/prebuilt/windows-x86_64/bin/../lib/gcc/i686-linux-android/4.9.x -LE:/adt-bundle-windows-x86_64/android-ndk-r16b/toolchains/x86-4.9/prebuilt/windows-x86_64/bin/../lib/gcc -LE:/adt-bundle-windows-x86_64/android-ndk-r16b/toolchains/x86-4.9/prebuilt/windows-x86_64/bin/../lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/lib -LE:/adt-bundle-windows-x86_64/android-ndk-r16b/platforms/android-16/arch-x86/usr/lib --exclude-libs libgcc.a --exclude-libs libatomic.a --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc CMakeFiles/cmTC_103bb.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc -lc -ldl -lgcc E:/adt-bundle-windows-x86_64/android-ndk-r16b/platforms/android-16/arch-x86/usr/lib/crtend_android.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-isystem' 'E:/adt-bundle-windows-x86_64/android-ndk-r16b/sysroot/usr/include/i686-linux-android' '-D' '__ANDROID_API__=16' '-g' '-D' 'ANDROID' '-ffunction-sections' '-funwind-tables' '-fstack-protector-strong' '-mstackrealign' '-Wformat=1' '-Werror=format-security' '-std=c++11' '-pie' '-fPIE' '-v' '-o' 'cmTC_4a5ca' '-mtune=intel' '-march=i686']
+  link line: [ E:/adt-bundle-windows-x86_64/android-ndk-r16b/toolchains/x86-4.9/prebuilt/windows-x86_64/bin/../libexec/gcc/i686-linux-android/4.9.x/collect2.exe -plugin E:/adt-bundle-windows-x86_64/android-ndk-r16b/toolchains/x86-4.9/prebuilt/windows-x86_64/bin/../libexec/gcc/i686-linux-android/4.9.x/liblto_plugin-0.dll -plugin-opt=E:/adt-bundle-windows-x86_64/android-ndk-r16b/toolchains/x86-4.9/prebuilt/windows-x86_64/bin/../libexec/gcc/i686-linux-android/4.9.x/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\JerryZhu\AppData\Local\Temp\ccBZSrQc.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-ldl -plugin-opt=-pass-through=-lgcc --sysroot=E:/adt-bundle-windows-x86_64/android-ndk-r16b/platforms/android-16/arch-x86 --eh-frame-hdr -m elf_i386 -dynamic-linker /system/bin/linker -z noexecstack -z relro -z now -pie -o cmTC_4a5ca E:/adt-bundle-windows-x86_64/android-ndk-r16b/platforms/android-16/arch-x86/usr/lib/crtbegin_dynamic.o -LE:/adt-bundle-windows-x86_64/android-ndk-r16b/toolchains/x86-4.9/prebuilt/windows-x86_64/bin/../lib/gcc/i686-linux-android/4.9.x -LE:/adt-bundle-windows-x86_64/android-ndk-r16b/toolchains/x86-4.9/prebuilt/windows-x86_64/bin/../lib/gcc -LE:/adt-bundle-windows-x86_64/android-ndk-r16b/toolchains/x86-4.9/prebuilt/windows-x86_64/bin/../lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/lib -LE:/adt-bundle-windows-x86_64/android-ndk-r16b/platforms/android-16/arch-x86/usr/lib --exclude-libs libgcc.a --exclude-libs libatomic.a --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc CMakeFiles/cmTC_4a5ca.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc -lc -ldl -lgcc E:/adt-bundle-windows-x86_64/android-ndk-r16b/platforms/android-16/arch-x86/usr/lib/crtend_android.o]
     arg [E:/adt-bundle-windows-x86_64/android-ndk-r16b/toolchains/x86-4.9/prebuilt/windows-x86_64/bin/../libexec/gcc/i686-linux-android/4.9.x/collect2.exe] ==> ignore
     arg [-plugin] ==> ignore
     arg [E:/adt-bundle-windows-x86_64/android-ndk-r16b/toolchains/x86-4.9/prebuilt/windows-x86_64/bin/../libexec/gcc/i686-linux-android/4.9.x/liblto_plugin-0.dll] ==> ignore
     arg [-plugin-opt=E:/adt-bundle-windows-x86_64/android-ndk-r16b/toolchains/x86-4.9/prebuilt/windows-x86_64/bin/../libexec/gcc/i686-linux-android/4.9.x/lto-wrapper.exe] ==> ignore
-    arg [-plugin-opt=-fresolution=C:UsersJerryZhuAppDataLocalTempcc5oYIEG.res] ==> ignore
+    arg [-plugin-opt=-fresolution=C:UsersJerryZhuAppDataLocalTempccBZSrQc.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
     arg [-plugin-opt=-pass-through=-ldl] ==> ignore
@@ -244,7 +244,7 @@ Parsed CXX implicit link information from above output:
     arg [-znow] ==> ignore
     arg [-pie] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_103bb] ==> ignore
+    arg [cmTC_4a5ca] ==> ignore
     arg [E:/adt-bundle-windows-x86_64/android-ndk-r16b/platforms/android-16/arch-x86/usr/lib/crtbegin_dynamic.o] ==> ignore
     arg [-LE:/adt-bundle-windows-x86_64/android-ndk-r16b/toolchains/x86-4.9/prebuilt/windows-x86_64/bin/../lib/gcc/i686-linux-android/4.9.x] ==> dir [E:/adt-bundle-windows-x86_64/android-ndk-r16b/toolchains/x86-4.9/prebuilt/windows-x86_64/bin/../lib/gcc/i686-linux-android/4.9.x]
     arg [-LE:/adt-bundle-windows-x86_64/android-ndk-r16b/toolchains/x86-4.9/prebuilt/windows-x86_64/bin/../lib/gcc] ==> dir [E:/adt-bundle-windows-x86_64/android-ndk-r16b/toolchains/x86-4.9/prebuilt/windows-x86_64/bin/../lib/gcc]
@@ -263,7 +263,7 @@ Parsed CXX implicit link information from above output:
     arg [-znow] ==> ignore
     arg [--gc-sections] ==> ignore
     arg [-znocopyreloc] ==> ignore
-    arg [CMakeFiles/cmTC_103bb.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_4a5ca.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc] ==> lib [gcc]
@@ -285,11 +285,11 @@ Parsed CXX implicit link information from above output:
 
 
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
-Change Dir: C:/Users/JerryZhu/Desktop/breakpaddemo/breakpadlib/.cxx/cmake/release/x86/CMakeFiles/CMakeTmp
+Change Dir: C:/Users/JerryZhu/Desktop/breakpad-android/breakpadlib/.cxx/cmake/release/x86/CMakeFiles/CMakeTmp
 
-Run Build Command:"E:\adt-bundle-windows-x86_64\sdk_as\cmake\3.6.4111459\bin\ninja.exe" "cmTC_ea1c8"
-[1/2] Building CXX object CMakeFiles/cmTC_ea1c8.dir/feature_tests.cxx.o
-[2/2] Linking CXX executable cmTC_ea1c8
+Run Build Command:"E:\adt-bundle-windows-x86_64\sdk_as\cmake\3.6.4111459\bin\ninja.exe" "cmTC_b5775"
+[1/2] Building CXX object CMakeFiles/cmTC_b5775.dir/feature_tests.cxx.o
+[2/2] Linking CXX executable cmTC_b5775
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -352,11 +352,11 @@ Run Build Command:"E:\adt-bundle-windows-x86_64\sdk_as\cmake\3.6.4111459\bin\nin
 
 
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
-Change Dir: C:/Users/JerryZhu/Desktop/breakpaddemo/breakpadlib/.cxx/cmake/release/x86/CMakeFiles/CMakeTmp
+Change Dir: C:/Users/JerryZhu/Desktop/breakpad-android/breakpadlib/.cxx/cmake/release/x86/CMakeFiles/CMakeTmp
 
-Run Build Command:"E:\adt-bundle-windows-x86_64\sdk_as\cmake\3.6.4111459\bin\ninja.exe" "cmTC_0efb0"
-[1/2] Building CXX object CMakeFiles/cmTC_0efb0.dir/feature_tests.cxx.o
-[2/2] Linking CXX executable cmTC_0efb0
+Run Build Command:"E:\adt-bundle-windows-x86_64\sdk_as\cmake\3.6.4111459\bin\ninja.exe" "cmTC_b7e2f"
+[1/2] Building CXX object CMakeFiles/cmTC_b7e2f.dir/feature_tests.cxx.o
+[2/2] Linking CXX executable cmTC_b7e2f
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -419,11 +419,11 @@ Run Build Command:"E:\adt-bundle-windows-x86_64\sdk_as\cmake\3.6.4111459\bin\nin
 
 
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
-Change Dir: C:/Users/JerryZhu/Desktop/breakpaddemo/breakpadlib/.cxx/cmake/release/x86/CMakeFiles/CMakeTmp
+Change Dir: C:/Users/JerryZhu/Desktop/breakpad-android/breakpadlib/.cxx/cmake/release/x86/CMakeFiles/CMakeTmp
 
-Run Build Command:"E:\adt-bundle-windows-x86_64\sdk_as\cmake\3.6.4111459\bin\ninja.exe" "cmTC_dc4d2"
-[1/2] Building CXX object CMakeFiles/cmTC_dc4d2.dir/feature_tests.cxx.o
-[2/2] Linking CXX executable cmTC_dc4d2
+Run Build Command:"E:\adt-bundle-windows-x86_64\sdk_as\cmake\3.6.4111459\bin\ninja.exe" "cmTC_08c0a"
+[1/2] Building CXX object CMakeFiles/cmTC_08c0a.dir/feature_tests.cxx.o
+[2/2] Linking CXX executable cmTC_08c0a
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers

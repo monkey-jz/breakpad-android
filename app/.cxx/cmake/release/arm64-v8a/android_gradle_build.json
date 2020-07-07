@@ -2,11 +2,11 @@
 {
 	"buildFiles" : 
 	[
-		"C:/Users/JerryZhu/Desktop/breakpaddemo/app/src/main/cpp/CMakeLists.txt"
+		"C:/Users/JerryZhu/Desktop/breakpad-android/app/src/main/cpp/CMakeLists.txt"
 	],
 	"cleanCommands" : 
 	[
-		"E:\\adt-bundle-windows-x86_64\\sdk_as\\cmake\\3.6.4111459\\bin\\cmake.exe --build C:\\Users\\JerryZhu\\Desktop\\breakpaddemo\\app\\.cxx\\cmake\\release\\arm64-v8a --target clean"
+		"E:\\adt-bundle-windows-x86_64\\sdk_as\\cmake\\3.6.4111459\\bin\\cmake.exe --build C:\\Users\\JerryZhu\\Desktop\\breakpad-android\\app\\.cxx\\cmake\\release\\arm64-v8a --target clean"
 	],
 	"cppFileExtensions" : [ "cpp" ],
 	"libraries" : 
@@ -15,18 +15,18 @@
 		{
 			"abi" : "arm64-v8a",
 			"artifactName" : "native-lib",
-			"buildCommand" : "E:\\adt-bundle-windows-x86_64\\sdk_as\\cmake\\3.6.4111459\\bin\\cmake.exe --build C:\\Users\\JerryZhu\\Desktop\\breakpaddemo\\app\\.cxx\\cmake\\release\\arm64-v8a --target native-lib",
+			"buildCommand" : "E:\\adt-bundle-windows-x86_64\\sdk_as\\cmake\\3.6.4111459\\bin\\cmake.exe --build C:\\Users\\JerryZhu\\Desktop\\breakpad-android\\app\\.cxx\\cmake\\release\\arm64-v8a --target native-lib",
 			"buildType" : "release",
 			"files" : 
 			[
 				
 				{
 					"flags" : "  --target=aarch64-none-linux-android --gcc-toolchain=E:/adt-bundle-windows-x86_64/android-ndk-r16b/toolchains/aarch64-linux-android-4.9/prebuilt/windows-x86_64 --sysroot=E:/adt-bundle-windows-x86_64/android-ndk-r16b/sysroot  -Dnative_lib_EXPORTS -isystem E:\\adt-bundle-windows-x86_64\\android-ndk-r16b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem E:\\adt-bundle-windows-x86_64\\android-ndk-r16b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\arm64-v8a\\include -isystem E:\\adt-bundle-windows-x86_64\\android-ndk-r16b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem E:/adt-bundle-windows-x86_64/android-ndk-r16b/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security   -std=c++11 -Wall -O2 -DNDEBUG  -fPIC    -c ",
-					"src" : "C:/Users/JerryZhu/Desktop/breakpaddemo/app/src/main/cpp/native-lib.cpp",
-					"workingDirectory" : "C:/Users/JerryZhu/Desktop/breakpaddemo/app/.cxx/cmake/release/arm64-v8a"
+					"src" : "C:/Users/JerryZhu/Desktop/breakpad-android/app/src/main/cpp/native-lib.cpp",
+					"workingDirectory" : "C:/Users/JerryZhu/Desktop/breakpad-android/app/.cxx/cmake/release/arm64-v8a"
 				}
 			],
-			"output" : "C:/Users/JerryZhu/Desktop/breakpaddemo/app/build/intermediates/cmake/release/obj/arm64-v8a/libnative-lib.so",
+			"output" : "C:/Users/JerryZhu/Desktop/breakpad-android/app/build/intermediates/cmake/release/obj/arm64-v8a/libnative-lib.so",
 			"toolchain" : "3880962585"
 		}
 	},

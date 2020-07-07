@@ -1,6 +1,6 @@
-C:/Users/JerryZhu/Desktop/breakpaddemo/breakpadlib/.cxx/cmake/release/arm64-v8a/CMakeFiles/breakpad_core.dir
-C:/Users/JerryZhu/Desktop/breakpaddemo/breakpadlib/.cxx/cmake/release/arm64-v8a/CMakeFiles/edit_cache.dir
-C:/Users/JerryZhu/Desktop/breakpaddemo/breakpadlib/.cxx/cmake/release/arm64-v8a/CMakeFiles/rebuild_cache.dir
-C:/Users/JerryZhu/Desktop/breakpaddemo/breakpadlib/.cxx/cmake/release/arm64-v8a/breakpad/CMakeFiles/rebuild_cache.dir
-C:/Users/JerryZhu/Desktop/breakpaddemo/breakpadlib/.cxx/cmake/release/arm64-v8a/breakpad/CMakeFiles/breakpad.dir
-C:/Users/JerryZhu/Desktop/breakpaddemo/breakpadlib/.cxx/cmake/release/arm64-v8a/breakpad/CMakeFiles/edit_cache.dir
+C:/Users/JerryZhu/Desktop/breakpad-android/breakpadlib/.cxx/cmake/release/arm64-v8a/CMakeFiles/breakpad_core.dir
+C:/Users/JerryZhu/Desktop/breakpad-android/breakpadlib/.cxx/cmake/release/arm64-v8a/CMakeFiles/edit_cache.dir
+C:/Users/JerryZhu/Desktop/breakpad-android/breakpadlib/.cxx/cmake/release/arm64-v8a/CMakeFiles/rebuild_cache.dir
+C:/Users/JerryZhu/Desktop/breakpad-android/breakpadlib/.cxx/cmake/release/arm64-v8a/breakpad/CMakeFiles/rebuild_cache.dir
+C:/Users/JerryZhu/Desktop/breakpad-android/breakpadlib/.cxx/cmake/release/arm64-v8a/breakpad/CMakeFiles/breakpad.dir
+C:/Users/JerryZhu/Desktop/breakpad-android/breakpadlib/.cxx/cmake/release/arm64-v8a/breakpad/CMakeFiles/edit_cache.dir

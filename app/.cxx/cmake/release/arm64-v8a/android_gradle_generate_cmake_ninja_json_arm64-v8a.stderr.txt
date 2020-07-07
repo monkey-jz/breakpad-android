@@ -2,7 +2,7 @@ CMake Warning at E:/adt-bundle-windows-x86_64/android-ndk-r16b/build/cmake/andro
   Using custom NDK path (ANDROID_NDK is set):
   E:\adt-bundle-windows-x86_64\android-ndk-r16b
 Call Stack (most recent call first):
-  C:/Users/JerryZhu/Desktop/breakpaddemo/app/.cxx/cmake/release/arm64-v8a/CMakeFiles/3.6.0-rc2/CMakeSystem.cmake:6 (include)
+  E:/adt-bundle-windows-x86_64/sdk_as/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeDetermineSystem.cmake:98 (include)
   CMakeLists.txt
 
 

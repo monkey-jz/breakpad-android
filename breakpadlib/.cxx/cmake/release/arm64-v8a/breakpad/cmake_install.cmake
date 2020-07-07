@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/JerryZhu/Desktop/breakpaddemo/breakpadlib/src/main/cpp/breakpad
+# Install script for directory: C:/Users/JerryZhu/Desktop/breakpad-android/breakpadlib/src/main/cpp/breakpad
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

@@ -71,7 +71,7 @@ rule CXX_STATIC_LIBRARY_LINKER__breakpad
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = E:\adt-bundle-windows-x86_64\sdk_as\cmake\3.6.4111459\bin\cmake.exe -HC:\Users\JerryZhu\Desktop\breakpaddemo\breakpadlib\src\main\cpp -BC:\Users\JerryZhu\Desktop\breakpaddemo\breakpadlib\.cxx\cmake\debug\x86
+  command = E:\adt-bundle-windows-x86_64\sdk_as\cmake\3.6.4111459\bin\cmake.exe -HC:\Users\JerryZhu\Desktop\breakpad-android\breakpadlib\src\main\cpp -BC:\Users\JerryZhu\Desktop\breakpad-android\breakpadlib\.cxx\cmake\debug\x86
   description = Re-running CMake...
   generator = 1
 
