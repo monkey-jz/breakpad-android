@@ -5,6 +5,12 @@
 #include "client/linux/handler/exception_handler.h"
 #include "client/linux/handler/minidump_descriptor.h"
 
+
+/**
+ * @Auther: JerryZhu
+ * @datetime: 2020/7/7
+ */
+
 #define LOG_TAG "native_crash"
 
 #define ALOGV(...) __android_log_print(ANDROID_LOG_VERBOSE, LOG_TAG, __VA_ARGS__)
@@ -17,7 +23,7 @@
 bool DumpCallback(const google_breakpad::MinidumpDescriptor &descriptor,
                   void *context,
                   bool succeeded) {
-    ALOGE("native_crash , crashDump path: %s\n", descriptor.path());
+    ALOGE("crashDump path: %s\n", descriptor.path());
     return succeeded;
 }
 

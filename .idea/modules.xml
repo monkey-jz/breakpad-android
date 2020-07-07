@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/app.iml" group="breakpaddemo/app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/breakpaddemo.iml" filepath="$PROJECT_DIR$/.idea/modules/breakpaddemo.iml" group="breakpaddemo" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/breakpadlib/breakpadlib.iml" filepath="$PROJECT_DIR$/.idea/modules/breakpadlib/breakpadlib.iml" group="breakpaddemo/breakpadlib" />
+    </modules>
+  </component>
+</project>

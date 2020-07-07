@@ -1,7 +1,0 @@
-Executable : /home/jerryzhu/Desktop/as_tools/android_tools/sdk/cmake/3.10.2.4988404/bin/ninja
-arguments : 
--C
-/home/jerryzhu/Desktop/breakpaddemo/breakpadlib/.cxx/cmake/debug/arm64-v8a
-breakpad_core
-jvmArgs : 
-

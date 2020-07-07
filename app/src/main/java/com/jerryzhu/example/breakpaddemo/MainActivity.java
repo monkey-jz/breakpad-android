@@ -13,6 +13,10 @@ import android.widget.Toast;
 import com.jerryzhu.lib.breakpad.Breakpad;
 import java.io.File;
 
+/**
+ * @Auther: JerryZhu
+ * @datetime: 2020/7/7
+ */
 public class MainActivity extends AppCompatActivity {
 
     private static final String TAG = "breakpad";

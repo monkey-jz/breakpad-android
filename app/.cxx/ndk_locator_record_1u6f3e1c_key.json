@@ -1,0 +1,8 @@
+{
+  "ndkDirProperty": "E:\\adt-bundle-windows-x86_64\\android-ndk-r16b",
+  "sdkFolder": "E:\\adt-bundle-windows-x86_64\\sdk_as",
+  "sideBySideNdkFolderNames": [
+    "20.0.5594570",
+    "21.0.6113669"
+  ]
+}

@@ -1,18 +1,16 @@
 {
   "buildFiles": [
-    "/home/jerryzhu/Desktop/as_tools/android-ndk-r16b/build/cmake/android.toolchain.cmake",
-    "/home/jerryzhu/Desktop/breakpaddemo/app/src/main/cpp/CMakeLists.txt"
+    "C:\\Users\\JerryZhu\\Desktop\\breakpaddemo\\app\\src\\main\\cpp\\CMakeLists.txt"
   ],
   "cleanCommands": [
-    "/home/jerryzhu/Desktop/as_tools/android_tools/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/jerryzhu/Desktop/breakpaddemo/app/.cxx/cmake/release/armeabi-v7a\" clean"
+    "E:\\adt-bundle-windows-x86_64\\sdk_as\\cmake\\3.6.4111459\\bin\\cmake.exe --build C:\\Users\\JerryZhu\\Desktop\\breakpaddemo\\app\\.cxx\\cmake\\release\\armeabi-v7a --target clean"
   ],
-  "buildTargetsCommand": "/home/jerryzhu/Desktop/as_tools/android_tools/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/jerryzhu/Desktop/breakpaddemo/app/.cxx/cmake/release/armeabi-v7a\" {LIST_OF_TARGETS_TO_BUILD}",
   "libraries": {
     "native-lib-Release-armeabi-v7a": {
       "artifactName": "native-lib",
-      "buildCommand": "/home/jerryzhu/Desktop/as_tools/android_tools/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/jerryzhu/Desktop/breakpaddemo/app/.cxx/cmake/release/armeabi-v7a\" native-lib",
+      "buildCommand": "E:\\adt-bundle-windows-x86_64\\sdk_as\\cmake\\3.6.4111459\\bin\\cmake.exe --build C:\\Users\\JerryZhu\\Desktop\\breakpaddemo\\app\\.cxx\\cmake\\release\\armeabi-v7a --target native-lib",
       "abi": "armeabi-v7a",
-      "output": "/home/jerryzhu/Desktop/breakpaddemo/app/build/intermediates/cmake/release/obj/armeabi-v7a/libnative-lib.so"
+      "output": "C:\\Users\\JerryZhu\\Desktop\\breakpaddemo\\app\\build\\intermediates\\cmake\\release\\obj\\armeabi-v7a\\libnative-lib.so"
     }
   }
 }

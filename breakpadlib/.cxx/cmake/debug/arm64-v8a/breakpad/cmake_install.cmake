@@ -1,8 +1,8 @@
-# Install script for directory: /home/jerryzhu/Desktop/breakpaddemo/breakpadlib/src/main/cpp/breakpad
+# Install script for directory: C:/Users/JerryZhu/Desktop/breakpaddemo/breakpadlib/src/main/cpp/breakpad
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/usr/local")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/Project")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -29,11 +29,6 @@ endif()
 
 # Install shared libraries without execute permission?
 if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
-  set(CMAKE_INSTALL_SO_NO_EXE "1")
-endif()
-
-# Is this installation the result of a crosscompile?
-if(NOT DEFINED CMAKE_CROSSCOMPILING)
-  set(CMAKE_CROSSCOMPILING "TRUE")
+  set(CMAKE_INSTALL_SO_NO_EXE "0")
 endif()
 

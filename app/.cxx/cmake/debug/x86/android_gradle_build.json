@@ -1,41 +1,41 @@
+
 {
-  "stringTable": {
-    "0": "/home/jerryzhu/Desktop/breakpaddemo/app/.cxx/cmake/debug/x86",
-    "1": "--target=i686-none-linux-android --gcc-toolchain=/home/jerryzhu/Desktop/as_tools/android-ndk-r16b/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/home/jerryzhu/Desktop/as_tools/android-ndk-r16b/sysroot -Dnative_lib_EXPORTS -isystem /home/jerryzhu/Desktop/as_tools/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/jerryzhu/Desktop/as_tools/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86/include -isystem /home/jerryzhu/Desktop/as_tools/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/include/backward -isystem /home/jerryzhu/Desktop/as_tools/android-ndk-r16b/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=16 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11 -std=c++11 -Wall -O0 -fno-limit-debug-info -fPIC"
-  },
-  "buildFiles": [
-    "/home/jerryzhu/Desktop/as_tools/android-ndk-r16b/build/cmake/android.toolchain.cmake",
-    "/home/jerryzhu/Desktop/breakpaddemo/app/src/main/cpp/CMakeLists.txt"
-  ],
-  "cleanCommands": [
-    "/home/jerryzhu/Desktop/as_tools/android_tools/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/jerryzhu/Desktop/breakpaddemo/app/.cxx/cmake/debug/x86\" clean"
-  ],
-  "buildTargetsCommand": "/home/jerryzhu/Desktop/as_tools/android_tools/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/jerryzhu/Desktop/breakpaddemo/app/.cxx/cmake/debug/x86\" {LIST_OF_TARGETS_TO_BUILD}",
-  "libraries": {
-    "native-lib-Debug-x86": {
-      "buildCommand": "/home/jerryzhu/Desktop/as_tools/android_tools/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/jerryzhu/Desktop/breakpaddemo/app/.cxx/cmake/debug/x86\" native-lib",
-      "buildType": "debug",
-      "toolchain": "1991229194",
-      "abi": "x86",
-      "artifactName": "native-lib",
-      "files": [
-        {
-          "src": "/home/jerryzhu/Desktop/breakpaddemo/app/src/main/cpp/native-lib.cpp",
-          "flagsOrdinal": 1,
-          "workingDirectoryOrdinal": 0
-        }
-      ],
-      "headers": [],
-      "output": "/home/jerryzhu/Desktop/breakpaddemo/app/build/intermediates/cmake/debug/obj/x86/libnative-lib.so"
-    }
-  },
-  "toolchains": {
-    "1991229194": {
-      "cppCompilerExecutable": "/home/jerryzhu/Desktop/as_tools/android-ndk-r16b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++"
-    }
-  },
-  "cFileExtensions": [],
-  "cppFileExtensions": [
-    "cpp"
-  ]
+	"buildFiles" : 
+	[
+		"C:/Users/JerryZhu/Desktop/breakpaddemo/app/src/main/cpp/CMakeLists.txt"
+	],
+	"cleanCommands" : 
+	[
+		"E:\\adt-bundle-windows-x86_64\\sdk_as\\cmake\\3.6.4111459\\bin\\cmake.exe --build C:\\Users\\JerryZhu\\Desktop\\breakpaddemo\\app\\.cxx\\cmake\\debug\\x86 --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"native-lib-Debug-x86" : 
+		{
+			"abi" : "x86",
+			"artifactName" : "native-lib",
+			"buildCommand" : "E:\\adt-bundle-windows-x86_64\\sdk_as\\cmake\\3.6.4111459\\bin\\cmake.exe --build C:\\Users\\JerryZhu\\Desktop\\breakpaddemo\\app\\.cxx\\cmake\\debug\\x86 --target native-lib",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=i686-none-linux-android --gcc-toolchain=E:/adt-bundle-windows-x86_64/android-ndk-r16b/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=E:/adt-bundle-windows-x86_64/android-ndk-r16b/sysroot  -Dnative_lib_EXPORTS -isystem E:\\adt-bundle-windows-x86_64\\android-ndk-r16b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem E:\\adt-bundle-windows-x86_64\\android-ndk-r16b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\x86\\include -isystem E:\\adt-bundle-windows-x86_64\\android-ndk-r16b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem E:/adt-bundle-windows-x86_64/android-ndk-r16b/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=16 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security   -std=c++11 -Wall -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "C:/Users/JerryZhu/Desktop/breakpaddemo/app/src/main/cpp/native-lib.cpp",
+					"workingDirectory" : "C:/Users/JerryZhu/Desktop/breakpaddemo/app/.cxx/cmake/debug/x86"
+				}
+			],
+			"output" : "C:/Users/JerryZhu/Desktop/breakpaddemo/app/build/intermediates/cmake/debug/obj/x86/libnative-lib.so",
+			"toolchain" : "3880962585"
+		}
+	},
+	"toolchains" : 
+	{
+		"3880962585" : 
+		{
+			"cCompilerExecutable" : "E:/adt-bundle-windows-x86_64/android-ndk-r16b/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe",
+			"cppCompilerExecutable" : "E:/adt-bundle-windows-x86_64/android-ndk-r16b/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe"
+		}
+	}
 }

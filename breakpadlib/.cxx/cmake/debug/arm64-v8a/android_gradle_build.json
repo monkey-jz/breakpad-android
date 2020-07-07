@@ -1,164 +1,181 @@
+
 {
-  "stringTable": {
-    "0": "/home/jerryzhu/Desktop/breakpaddemo/breakpadlib/.cxx/cmake/debug/arm64-v8a",
-    "1": "--target=aarch64-none-linux-android --gcc-toolchain=/home/jerryzhu/Desktop/as_tools/android-ndk-r16b/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64 --sysroot=/home/jerryzhu/Desktop/as_tools/android-ndk-r16b/sysroot -Dbreakpad_core_EXPORTS -I/home/jerryzhu/Desktop/breakpaddemo/breakpadlib/src/main/cpp/breakpad/src -I/home/jerryzhu/Desktop/breakpaddemo/breakpadlib/src/main/cpp/breakpad/src/common/android/include -isystem /home/jerryzhu/Desktop/as_tools/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/jerryzhu/Desktop/as_tools/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/libs/arm64-v8a/include -isystem /home/jerryzhu/Desktop/as_tools/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/include/backward -isystem /home/jerryzhu/Desktop/as_tools/android-ndk-r16b/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11 -O0 -fno-limit-debug-info -fPIC",
-    "2": "--target=aarch64-none-linux-android --gcc-toolchain=/home/jerryzhu/Desktop/as_tools/android-ndk-r16b/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64 --sysroot=/home/jerryzhu/Desktop/as_tools/android-ndk-r16b/sysroot -I/home/jerryzhu/Desktop/breakpaddemo/breakpadlib/src/main/cpp/breakpad/src -I/home/jerryzhu/Desktop/breakpaddemo/breakpadlib/src/main/cpp/breakpad/src/common/android/include -I/home/jerryzhu/Desktop/breakpaddemo/breakpadlib/src/main/cpp/breakpad/src/common -isystem /home/jerryzhu/Desktop/as_tools/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/jerryzhu/Desktop/as_tools/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/libs/arm64-v8a/include -isystem /home/jerryzhu/Desktop/as_tools/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/include/backward -isystem /home/jerryzhu/Desktop/as_tools/android-ndk-r16b/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11 -O0 -fno-limit-debug-info -fPIC",
-    "3": "--target=aarch64-none-linux-android --gcc-toolchain=/home/jerryzhu/Desktop/as_tools/android-ndk-r16b/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64 --sysroot=/home/jerryzhu/Desktop/as_tools/android-ndk-r16b/sysroot -I/home/jerryzhu/Desktop/breakpaddemo/breakpadlib/src/main/cpp/breakpad/src -I/home/jerryzhu/Desktop/breakpaddemo/breakpadlib/src/main/cpp/breakpad/src/common/android/include -I/home/jerryzhu/Desktop/breakpaddemo/breakpadlib/src/main/cpp/breakpad/src/common -isystem /home/jerryzhu/Desktop/as_tools/android-ndk-r16b/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -Werror=implicit-function-declaration -O0 -fno-limit-debug-info -fPIC"
-  },
-  "buildFiles": [
-    "/home/jerryzhu/Desktop/as_tools/android-ndk-r16b/build/cmake/android.toolchain.cmake",
-    "/home/jerryzhu/Desktop/breakpaddemo/breakpadlib/src/main/cpp/breakpad/CMakeLists.txt",
-    "/home/jerryzhu/Desktop/breakpaddemo/breakpadlib/src/main/cpp/CMakeLists.txt"
-  ],
-  "cleanCommands": [
-    "/home/jerryzhu/Desktop/as_tools/android_tools/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/jerryzhu/Desktop/breakpaddemo/breakpadlib/.cxx/cmake/debug/arm64-v8a\" clean"
-  ],
-  "buildTargetsCommand": "/home/jerryzhu/Desktop/as_tools/android_tools/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/jerryzhu/Desktop/breakpaddemo/breakpadlib/.cxx/cmake/debug/arm64-v8a\" {LIST_OF_TARGETS_TO_BUILD}",
-  "libraries": {
-    "breakpad-Debug-arm64-v8a": {
-      "buildCommand": "/home/jerryzhu/Desktop/as_tools/android_tools/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/jerryzhu/Desktop/breakpaddemo/breakpadlib/.cxx/cmake/debug/arm64-v8a\" breakpad",
-      "buildType": "debug",
-      "toolchain": "3392316160",
-      "abi": "arm64-v8a",
-      "artifactName": "breakpad",
-      "files": [
-        {
-          "src": "/home/jerryzhu/Desktop/breakpaddemo/breakpadlib/src/main/cpp/breakpad/src/common/linux/breakpad_getcontext.S",
-          "flagsOrdinal": 3,
-          "workingDirectoryOrdinal": 0
-        },
-        {
-          "src": "/home/jerryzhu/Desktop/breakpaddemo/breakpadlib/src/main/cpp/breakpad/src/client/linux/crash_generation/crash_generation_client.cc",
-          "flagsOrdinal": 2,
-          "workingDirectoryOrdinal": 0
-        },
-        {
-          "src": "/home/jerryzhu/Desktop/breakpaddemo/breakpadlib/src/main/cpp/breakpad/src/client/linux/dump_writer_common/thread_info.cc",
-          "flagsOrdinal": 2,
-          "workingDirectoryOrdinal": 0
-        },
-        {
-          "src": "/home/jerryzhu/Desktop/breakpaddemo/breakpadlib/src/main/cpp/breakpad/src/client/linux/dump_writer_common/ucontext_reader.cc",
-          "flagsOrdinal": 2,
-          "workingDirectoryOrdinal": 0
-        },
-        {
-          "src": "/home/jerryzhu/Desktop/breakpaddemo/breakpadlib/src/main/cpp/breakpad/src/client/linux/handler/exception_handler.cc",
-          "flagsOrdinal": 2,
-          "workingDirectoryOrdinal": 0
-        },
-        {
-          "src": "/home/jerryzhu/Desktop/breakpaddemo/breakpadlib/src/main/cpp/breakpad/src/client/linux/handler/minidump_descriptor.cc",
-          "flagsOrdinal": 2,
-          "workingDirectoryOrdinal": 0
-        },
-        {
-          "src": "/home/jerryzhu/Desktop/breakpaddemo/breakpadlib/src/main/cpp/breakpad/src/client/linux/log/log.cc",
-          "flagsOrdinal": 2,
-          "workingDirectoryOrdinal": 0
-        },
-        {
-          "src": "/home/jerryzhu/Desktop/breakpaddemo/breakpadlib/src/main/cpp/breakpad/src/client/linux/microdump_writer/microdump_writer.cc",
-          "flagsOrdinal": 2,
-          "workingDirectoryOrdinal": 0
-        },
-        {
-          "src": "/home/jerryzhu/Desktop/breakpaddemo/breakpadlib/src/main/cpp/breakpad/src/client/linux/minidump_writer/linux_dumper.cc",
-          "flagsOrdinal": 2,
-          "workingDirectoryOrdinal": 0
-        },
-        {
-          "src": "/home/jerryzhu/Desktop/breakpaddemo/breakpadlib/src/main/cpp/breakpad/src/client/linux/minidump_writer/linux_ptrace_dumper.cc",
-          "flagsOrdinal": 2,
-          "workingDirectoryOrdinal": 0
-        },
-        {
-          "src": "/home/jerryzhu/Desktop/breakpaddemo/breakpadlib/src/main/cpp/breakpad/src/client/linux/minidump_writer/minidump_writer.cc",
-          "flagsOrdinal": 2,
-          "workingDirectoryOrdinal": 0
-        },
-        {
-          "src": "/home/jerryzhu/Desktop/breakpaddemo/breakpadlib/src/main/cpp/breakpad/src/client/minidump_file_writer.cc",
-          "flagsOrdinal": 2,
-          "workingDirectoryOrdinal": 0
-        },
-        {
-          "src": "/home/jerryzhu/Desktop/breakpaddemo/breakpadlib/src/main/cpp/breakpad/src/common/convert_UTF.cc",
-          "flagsOrdinal": 2,
-          "workingDirectoryOrdinal": 0
-        },
-        {
-          "src": "/home/jerryzhu/Desktop/breakpaddemo/breakpadlib/src/main/cpp/breakpad/src/common/md5.cc",
-          "flagsOrdinal": 2,
-          "workingDirectoryOrdinal": 0
-        },
-        {
-          "src": "/home/jerryzhu/Desktop/breakpaddemo/breakpadlib/src/main/cpp/breakpad/src/common/string_conversion.cc",
-          "flagsOrdinal": 2,
-          "workingDirectoryOrdinal": 0
-        },
-        {
-          "src": "/home/jerryzhu/Desktop/breakpaddemo/breakpadlib/src/main/cpp/breakpad/src/common/linux/elfutils.cc",
-          "flagsOrdinal": 2,
-          "workingDirectoryOrdinal": 0
-        },
-        {
-          "src": "/home/jerryzhu/Desktop/breakpaddemo/breakpadlib/src/main/cpp/breakpad/src/common/linux/file_id.cc",
-          "flagsOrdinal": 2,
-          "workingDirectoryOrdinal": 0
-        },
-        {
-          "src": "/home/jerryzhu/Desktop/breakpaddemo/breakpadlib/src/main/cpp/breakpad/src/common/linux/guid_creator.cc",
-          "flagsOrdinal": 2,
-          "workingDirectoryOrdinal": 0
-        },
-        {
-          "src": "/home/jerryzhu/Desktop/breakpaddemo/breakpadlib/src/main/cpp/breakpad/src/common/linux/linux_libc_support.cc",
-          "flagsOrdinal": 2,
-          "workingDirectoryOrdinal": 0
-        },
-        {
-          "src": "/home/jerryzhu/Desktop/breakpaddemo/breakpadlib/src/main/cpp/breakpad/src/common/linux/memory_mapped_file.cc",
-          "flagsOrdinal": 2,
-          "workingDirectoryOrdinal": 0
-        },
-        {
-          "src": "/home/jerryzhu/Desktop/breakpaddemo/breakpadlib/src/main/cpp/breakpad/src/common/linux/safe_readlink.cc",
-          "flagsOrdinal": 2,
-          "workingDirectoryOrdinal": 0
-        }
-      ],
-      "headers": [],
-      "output": "/home/jerryzhu/Desktop/breakpaddemo/breakpadlib/.cxx/cmake/debug/arm64-v8a/breakpad/libbreakpad.a"
-    },
-    "breakpad_core-Debug-arm64-v8a": {
-      "buildCommand": "/home/jerryzhu/Desktop/as_tools/android_tools/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/jerryzhu/Desktop/breakpaddemo/breakpadlib/.cxx/cmake/debug/arm64-v8a\" breakpad_core",
-      "buildType": "debug",
-      "toolchain": "3392316160",
-      "abi": "arm64-v8a",
-      "artifactName": "breakpad_core",
-      "files": [
-        {
-          "src": "/home/jerryzhu/Desktop/breakpaddemo/breakpadlib/src/main/cpp/breakpadlib.cpp",
-          "flagsOrdinal": 1,
-          "workingDirectoryOrdinal": 0
-        }
-      ],
-      "headers": [],
-      "output": "/home/jerryzhu/Desktop/breakpaddemo/breakpadlib/build/intermediates/cmake/debug/obj/arm64-v8a/libbreakpad_core.so"
-    }
-  },
-  "toolchains": {
-    "3392316160": {
-      "cCompilerExecutable": "/home/jerryzhu/Desktop/as_tools/android-ndk-r16b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang",
-      "cppCompilerExecutable": "/home/jerryzhu/Desktop/as_tools/android-ndk-r16b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++"
-    }
-  },
-  "cFileExtensions": [
-    "S"
-  ],
-  "cppFileExtensions": [
-    "cc",
-    "cpp"
-  ]
+	"buildFiles" : 
+	[
+		"C:/Users/JerryZhu/Desktop/breakpaddemo/breakpadlib/src/main/cpp/CMakeLists.txt",
+		"C:/Users/JerryZhu/Desktop/breakpaddemo/breakpadlib/src/main/cpp/breakpad/CMakeLists.txt"
+	],
+	"cFileExtensions" : [ "S" ],
+	"cleanCommands" : 
+	[
+		"E:\\adt-bundle-windows-x86_64\\sdk_as\\cmake\\3.6.4111459\\bin\\cmake.exe --build C:\\Users\\JerryZhu\\Desktop\\breakpaddemo\\breakpadlib\\.cxx\\cmake\\debug\\arm64-v8a --target clean"
+	],
+	"cppFileExtensions" : [ "cc", "cpp" ],
+	"libraries" : 
+	{
+		"breakpad-Debug-arm64-v8a" : 
+		{
+			"abi" : "arm64-v8a",
+			"artifactName" : "breakpad",
+			"buildCommand" : "E:\\adt-bundle-windows-x86_64\\sdk_as\\cmake\\3.6.4111459\\bin\\cmake.exe --build C:\\Users\\JerryZhu\\Desktop\\breakpaddemo\\breakpadlib\\.cxx\\cmake\\debug\\arm64-v8a --target breakpad",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --sysroot=E:/adt-bundle-windows-x86_64/android-ndk-r16b/sysroot  -DENABLE_INPROCESS -DENABLE_OUTOFPROCESS -IC:\\Users\\JerryZhu\\Desktop\\breakpaddemo\\breakpadlib\\src\\main\\cpp\\breakpad\\src -IC:\\Users\\JerryZhu\\Desktop\\breakpaddemo\\breakpadlib\\src\\main\\cpp\\breakpad\\src\\common\\android\\include -IC:\\Users\\JerryZhu\\Desktop\\breakpaddemo\\breakpadlib\\src\\main\\cpp\\breakpad\\src\\common -isystem E:\\adt-bundle-windows-x86_64\\android-ndk-r16b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem E:\\adt-bundle-windows-x86_64\\android-ndk-r16b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\arm64-v8a\\include -isystem E:\\adt-bundle-windows-x86_64\\android-ndk-r16b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem E:/adt-bundle-windows-x86_64/android-ndk-r16b/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -std=c++11  -O0  -fPIC    -c ",
+					"src" : "C:/Users/JerryZhu/Desktop/breakpaddemo/breakpadlib/src/main/cpp/breakpad/src/client/linux/crash_generation/crash_generation_client.cc",
+					"workingDirectory" : "C:/Users/JerryZhu/Desktop/breakpaddemo/breakpadlib/.cxx/cmake/debug/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --sysroot=E:/adt-bundle-windows-x86_64/android-ndk-r16b/sysroot  -DENABLE_INPROCESS -DENABLE_OUTOFPROCESS -IC:\\Users\\JerryZhu\\Desktop\\breakpaddemo\\breakpadlib\\src\\main\\cpp\\breakpad\\src -IC:\\Users\\JerryZhu\\Desktop\\breakpaddemo\\breakpadlib\\src\\main\\cpp\\breakpad\\src\\common\\android\\include -IC:\\Users\\JerryZhu\\Desktop\\breakpaddemo\\breakpadlib\\src\\main\\cpp\\breakpad\\src\\common -isystem E:\\adt-bundle-windows-x86_64\\android-ndk-r16b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem E:\\adt-bundle-windows-x86_64\\android-ndk-r16b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\arm64-v8a\\include -isystem E:\\adt-bundle-windows-x86_64\\android-ndk-r16b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem E:/adt-bundle-windows-x86_64/android-ndk-r16b/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -std=c++11  -O0  -fPIC    -c ",
+					"src" : "C:/Users/JerryZhu/Desktop/breakpaddemo/breakpadlib/src/main/cpp/breakpad/src/client/linux/dump_writer_common/thread_info.cc",
+					"workingDirectory" : "C:/Users/JerryZhu/Desktop/breakpaddemo/breakpadlib/.cxx/cmake/debug/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --sysroot=E:/adt-bundle-windows-x86_64/android-ndk-r16b/sysroot  -DENABLE_INPROCESS -DENABLE_OUTOFPROCESS -IC:\\Users\\JerryZhu\\Desktop\\breakpaddemo\\breakpadlib\\src\\main\\cpp\\breakpad\\src -IC:\\Users\\JerryZhu\\Desktop\\breakpaddemo\\breakpadlib\\src\\main\\cpp\\breakpad\\src\\common\\android\\include -IC:\\Users\\JerryZhu\\Desktop\\breakpaddemo\\breakpadlib\\src\\main\\cpp\\breakpad\\src\\common -isystem E:\\adt-bundle-windows-x86_64\\android-ndk-r16b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem E:\\adt-bundle-windows-x86_64\\android-ndk-r16b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\arm64-v8a\\include -isystem E:\\adt-bundle-windows-x86_64\\android-ndk-r16b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem E:/adt-bundle-windows-x86_64/android-ndk-r16b/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -std=c++11  -O0  -fPIC    -c ",
+					"src" : "C:/Users/JerryZhu/Desktop/breakpaddemo/breakpadlib/src/main/cpp/breakpad/src/client/linux/dump_writer_common/ucontext_reader.cc",
+					"workingDirectory" : "C:/Users/JerryZhu/Desktop/breakpaddemo/breakpadlib/.cxx/cmake/debug/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --sysroot=E:/adt-bundle-windows-x86_64/android-ndk-r16b/sysroot  -DENABLE_INPROCESS -DENABLE_OUTOFPROCESS -IC:\\Users\\JerryZhu\\Desktop\\breakpaddemo\\breakpadlib\\src\\main\\cpp\\breakpad\\src -IC:\\Users\\JerryZhu\\Desktop\\breakpaddemo\\breakpadlib\\src\\main\\cpp\\breakpad\\src\\common\\android\\include -IC:\\Users\\JerryZhu\\Desktop\\breakpaddemo\\breakpadlib\\src\\main\\cpp\\breakpad\\src\\common -isystem E:\\adt-bundle-windows-x86_64\\android-ndk-r16b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem E:\\adt-bundle-windows-x86_64\\android-ndk-r16b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\arm64-v8a\\include -isystem E:\\adt-bundle-windows-x86_64\\android-ndk-r16b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem E:/adt-bundle-windows-x86_64/android-ndk-r16b/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -std=c++11  -O0  -fPIC    -c ",
+					"src" : "C:/Users/JerryZhu/Desktop/breakpaddemo/breakpadlib/src/main/cpp/breakpad/src/client/linux/handler/exception_handler.cc",
+					"workingDirectory" : "C:/Users/JerryZhu/Desktop/breakpaddemo/breakpadlib/.cxx/cmake/debug/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --sysroot=E:/adt-bundle-windows-x86_64/android-ndk-r16b/sysroot  -DENABLE_INPROCESS -DENABLE_OUTOFPROCESS -IC:\\Users\\JerryZhu\\Desktop\\breakpaddemo\\breakpadlib\\src\\main\\cpp\\breakpad\\src -IC:\\Users\\JerryZhu\\Desktop\\breakpaddemo\\breakpadlib\\src\\main\\cpp\\breakpad\\src\\common\\android\\include -IC:\\Users\\JerryZhu\\Desktop\\breakpaddemo\\breakpadlib\\src\\main\\cpp\\breakpad\\src\\common -isystem E:\\adt-bundle-windows-x86_64\\android-ndk-r16b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem E:\\adt-bundle-windows-x86_64\\android-ndk-r16b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\arm64-v8a\\include -isystem E:\\adt-bundle-windows-x86_64\\android-ndk-r16b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem E:/adt-bundle-windows-x86_64/android-ndk-r16b/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -std=c++11  -O0  -fPIC    -c ",
+					"src" : "C:/Users/JerryZhu/Desktop/breakpaddemo/breakpadlib/src/main/cpp/breakpad/src/client/linux/handler/minidump_descriptor.cc",
+					"workingDirectory" : "C:/Users/JerryZhu/Desktop/breakpaddemo/breakpadlib/.cxx/cmake/debug/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --sysroot=E:/adt-bundle-windows-x86_64/android-ndk-r16b/sysroot  -DENABLE_INPROCESS -DENABLE_OUTOFPROCESS -IC:\\Users\\JerryZhu\\Desktop\\breakpaddemo\\breakpadlib\\src\\main\\cpp\\breakpad\\src -IC:\\Users\\JerryZhu\\Desktop\\breakpaddemo\\breakpadlib\\src\\main\\cpp\\breakpad\\src\\common\\android\\include -IC:\\Users\\JerryZhu\\Desktop\\breakpaddemo\\breakpadlib\\src\\main\\cpp\\breakpad\\src\\common -isystem E:\\adt-bundle-windows-x86_64\\android-ndk-r16b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem E:\\adt-bundle-windows-x86_64\\android-ndk-r16b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\arm64-v8a\\include -isystem E:\\adt-bundle-windows-x86_64\\android-ndk-r16b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem E:/adt-bundle-windows-x86_64/android-ndk-r16b/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -std=c++11  -O0  -fPIC    -c ",
+					"src" : "C:/Users/JerryZhu/Desktop/breakpaddemo/breakpadlib/src/main/cpp/breakpad/src/client/linux/log/log.cc",
+					"workingDirectory" : "C:/Users/JerryZhu/Desktop/breakpaddemo/breakpadlib/.cxx/cmake/debug/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --sysroot=E:/adt-bundle-windows-x86_64/android-ndk-r16b/sysroot  -DENABLE_INPROCESS -DENABLE_OUTOFPROCESS -IC:\\Users\\JerryZhu\\Desktop\\breakpaddemo\\breakpadlib\\src\\main\\cpp\\breakpad\\src -IC:\\Users\\JerryZhu\\Desktop\\breakpaddemo\\breakpadlib\\src\\main\\cpp\\breakpad\\src\\common\\android\\include -IC:\\Users\\JerryZhu\\Desktop\\breakpaddemo\\breakpadlib\\src\\main\\cpp\\breakpad\\src\\common -isystem E:\\adt-bundle-windows-x86_64\\android-ndk-r16b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem E:\\adt-bundle-windows-x86_64\\android-ndk-r16b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\arm64-v8a\\include -isystem E:\\adt-bundle-windows-x86_64\\android-ndk-r16b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem E:/adt-bundle-windows-x86_64/android-ndk-r16b/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -std=c++11  -O0  -fPIC    -c ",
+					"src" : "C:/Users/JerryZhu/Desktop/breakpaddemo/breakpadlib/src/main/cpp/breakpad/src/client/linux/microdump_writer/microdump_writer.cc",
+					"workingDirectory" : "C:/Users/JerryZhu/Desktop/breakpaddemo/breakpadlib/.cxx/cmake/debug/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --sysroot=E:/adt-bundle-windows-x86_64/android-ndk-r16b/sysroot  -DENABLE_INPROCESS -DENABLE_OUTOFPROCESS -IC:\\Users\\JerryZhu\\Desktop\\breakpaddemo\\breakpadlib\\src\\main\\cpp\\breakpad\\src -IC:\\Users\\JerryZhu\\Desktop\\breakpaddemo\\breakpadlib\\src\\main\\cpp\\breakpad\\src\\common\\android\\include -IC:\\Users\\JerryZhu\\Desktop\\breakpaddemo\\breakpadlib\\src\\main\\cpp\\breakpad\\src\\common -isystem E:\\adt-bundle-windows-x86_64\\android-ndk-r16b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem E:\\adt-bundle-windows-x86_64\\android-ndk-r16b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\arm64-v8a\\include -isystem E:\\adt-bundle-windows-x86_64\\android-ndk-r16b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem E:/adt-bundle-windows-x86_64/android-ndk-r16b/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -std=c++11  -O0  -fPIC    -c ",
+					"src" : "C:/Users/JerryZhu/Desktop/breakpaddemo/breakpadlib/src/main/cpp/breakpad/src/client/linux/minidump_writer/linux_dumper.cc",
+					"workingDirectory" : "C:/Users/JerryZhu/Desktop/breakpaddemo/breakpadlib/.cxx/cmake/debug/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --sysroot=E:/adt-bundle-windows-x86_64/android-ndk-r16b/sysroot  -DENABLE_INPROCESS -DENABLE_OUTOFPROCESS -IC:\\Users\\JerryZhu\\Desktop\\breakpaddemo\\breakpadlib\\src\\main\\cpp\\breakpad\\src -IC:\\Users\\JerryZhu\\Desktop\\breakpaddemo\\breakpadlib\\src\\main\\cpp\\breakpad\\src\\common\\android\\include -IC:\\Users\\JerryZhu\\Desktop\\breakpaddemo\\breakpadlib\\src\\main\\cpp\\breakpad\\src\\common -isystem E:\\adt-bundle-windows-x86_64\\android-ndk-r16b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem E:\\adt-bundle-windows-x86_64\\android-ndk-r16b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\arm64-v8a\\include -isystem E:\\adt-bundle-windows-x86_64\\android-ndk-r16b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem E:/adt-bundle-windows-x86_64/android-ndk-r16b/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -std=c++11  -O0  -fPIC    -c ",
+					"src" : "C:/Users/JerryZhu/Desktop/breakpaddemo/breakpadlib/src/main/cpp/breakpad/src/client/linux/minidump_writer/linux_ptrace_dumper.cc",
+					"workingDirectory" : "C:/Users/JerryZhu/Desktop/breakpaddemo/breakpadlib/.cxx/cmake/debug/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --sysroot=E:/adt-bundle-windows-x86_64/android-ndk-r16b/sysroot  -DENABLE_INPROCESS -DENABLE_OUTOFPROCESS -IC:\\Users\\JerryZhu\\Desktop\\breakpaddemo\\breakpadlib\\src\\main\\cpp\\breakpad\\src -IC:\\Users\\JerryZhu\\Desktop\\breakpaddemo\\breakpadlib\\src\\main\\cpp\\breakpad\\src\\common\\android\\include -IC:\\Users\\JerryZhu\\Desktop\\breakpaddemo\\breakpadlib\\src\\main\\cpp\\breakpad\\src\\common -isystem E:\\adt-bundle-windows-x86_64\\android-ndk-r16b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem E:\\adt-bundle-windows-x86_64\\android-ndk-r16b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\arm64-v8a\\include -isystem E:\\adt-bundle-windows-x86_64\\android-ndk-r16b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem E:/adt-bundle-windows-x86_64/android-ndk-r16b/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -std=c++11  -O0  -fPIC    -c ",
+					"src" : "C:/Users/JerryZhu/Desktop/breakpaddemo/breakpadlib/src/main/cpp/breakpad/src/client/linux/minidump_writer/minidump_writer.cc",
+					"workingDirectory" : "C:/Users/JerryZhu/Desktop/breakpaddemo/breakpadlib/.cxx/cmake/debug/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --sysroot=E:/adt-bundle-windows-x86_64/android-ndk-r16b/sysroot  -DENABLE_INPROCESS -DENABLE_OUTOFPROCESS -IC:\\Users\\JerryZhu\\Desktop\\breakpaddemo\\breakpadlib\\src\\main\\cpp\\breakpad\\src -IC:\\Users\\JerryZhu\\Desktop\\breakpaddemo\\breakpadlib\\src\\main\\cpp\\breakpad\\src\\common\\android\\include -IC:\\Users\\JerryZhu\\Desktop\\breakpaddemo\\breakpadlib\\src\\main\\cpp\\breakpad\\src\\common -isystem E:\\adt-bundle-windows-x86_64\\android-ndk-r16b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem E:\\adt-bundle-windows-x86_64\\android-ndk-r16b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\arm64-v8a\\include -isystem E:\\adt-bundle-windows-x86_64\\android-ndk-r16b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem E:/adt-bundle-windows-x86_64/android-ndk-r16b/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -std=c++11  -O0  -fPIC    -c ",
+					"src" : "C:/Users/JerryZhu/Desktop/breakpaddemo/breakpadlib/src/main/cpp/breakpad/src/client/minidump_file_writer.cc",
+					"workingDirectory" : "C:/Users/JerryZhu/Desktop/breakpaddemo/breakpadlib/.cxx/cmake/debug/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --sysroot=E:/adt-bundle-windows-x86_64/android-ndk-r16b/sysroot  -DENABLE_INPROCESS -DENABLE_OUTOFPROCESS -IC:\\Users\\JerryZhu\\Desktop\\breakpaddemo\\breakpadlib\\src\\main\\cpp\\breakpad\\src -IC:\\Users\\JerryZhu\\Desktop\\breakpaddemo\\breakpadlib\\src\\main\\cpp\\breakpad\\src\\common\\android\\include -IC:\\Users\\JerryZhu\\Desktop\\breakpaddemo\\breakpadlib\\src\\main\\cpp\\breakpad\\src\\common -isystem E:\\adt-bundle-windows-x86_64\\android-ndk-r16b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem E:\\adt-bundle-windows-x86_64\\android-ndk-r16b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\arm64-v8a\\include -isystem E:\\adt-bundle-windows-x86_64\\android-ndk-r16b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem E:/adt-bundle-windows-x86_64/android-ndk-r16b/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -std=c++11  -O0  -fPIC    -c ",
+					"src" : "C:/Users/JerryZhu/Desktop/breakpaddemo/breakpadlib/src/main/cpp/breakpad/src/common/convert_UTF.cc",
+					"workingDirectory" : "C:/Users/JerryZhu/Desktop/breakpaddemo/breakpadlib/.cxx/cmake/debug/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --sysroot=E:/adt-bundle-windows-x86_64/android-ndk-r16b/sysroot  -DENABLE_INPROCESS -DENABLE_OUTOFPROCESS -IC:\\Users\\JerryZhu\\Desktop\\breakpaddemo\\breakpadlib\\src\\main\\cpp\\breakpad\\src -IC:\\Users\\JerryZhu\\Desktop\\breakpaddemo\\breakpadlib\\src\\main\\cpp\\breakpad\\src\\common\\android\\include -IC:\\Users\\JerryZhu\\Desktop\\breakpaddemo\\breakpadlib\\src\\main\\cpp\\breakpad\\src\\common -isystem E:\\adt-bundle-windows-x86_64\\android-ndk-r16b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem E:\\adt-bundle-windows-x86_64\\android-ndk-r16b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\arm64-v8a\\include -isystem E:\\adt-bundle-windows-x86_64\\android-ndk-r16b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem E:/adt-bundle-windows-x86_64/android-ndk-r16b/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -std=c++11  -O0  -fPIC    -c ",
+					"src" : "C:/Users/JerryZhu/Desktop/breakpaddemo/breakpadlib/src/main/cpp/breakpad/src/common/md5.cc",
+					"workingDirectory" : "C:/Users/JerryZhu/Desktop/breakpaddemo/breakpadlib/.cxx/cmake/debug/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --sysroot=E:/adt-bundle-windows-x86_64/android-ndk-r16b/sysroot  -DENABLE_INPROCESS -DENABLE_OUTOFPROCESS -IC:\\Users\\JerryZhu\\Desktop\\breakpaddemo\\breakpadlib\\src\\main\\cpp\\breakpad\\src -IC:\\Users\\JerryZhu\\Desktop\\breakpaddemo\\breakpadlib\\src\\main\\cpp\\breakpad\\src\\common\\android\\include -IC:\\Users\\JerryZhu\\Desktop\\breakpaddemo\\breakpadlib\\src\\main\\cpp\\breakpad\\src\\common -isystem E:\\adt-bundle-windows-x86_64\\android-ndk-r16b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem E:\\adt-bundle-windows-x86_64\\android-ndk-r16b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\arm64-v8a\\include -isystem E:\\adt-bundle-windows-x86_64\\android-ndk-r16b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem E:/adt-bundle-windows-x86_64/android-ndk-r16b/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -std=c++11  -O0  -fPIC    -c ",
+					"src" : "C:/Users/JerryZhu/Desktop/breakpaddemo/breakpadlib/src/main/cpp/breakpad/src/common/string_conversion.cc",
+					"workingDirectory" : "C:/Users/JerryZhu/Desktop/breakpaddemo/breakpadlib/.cxx/cmake/debug/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --sysroot=E:/adt-bundle-windows-x86_64/android-ndk-r16b/sysroot  -DENABLE_INPROCESS -DENABLE_OUTOFPROCESS -IC:\\Users\\JerryZhu\\Desktop\\breakpaddemo\\breakpadlib\\src\\main\\cpp\\breakpad\\src -IC:\\Users\\JerryZhu\\Desktop\\breakpaddemo\\breakpadlib\\src\\main\\cpp\\breakpad\\src\\common\\android\\include -IC:\\Users\\JerryZhu\\Desktop\\breakpaddemo\\breakpadlib\\src\\main\\cpp\\breakpad\\src\\common -isystem E:\\adt-bundle-windows-x86_64\\android-ndk-r16b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem E:\\adt-bundle-windows-x86_64\\android-ndk-r16b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\arm64-v8a\\include -isystem E:\\adt-bundle-windows-x86_64\\android-ndk-r16b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem E:/adt-bundle-windows-x86_64/android-ndk-r16b/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -std=c++11  -O0  -fPIC    -c ",
+					"src" : "C:/Users/JerryZhu/Desktop/breakpaddemo/breakpadlib/src/main/cpp/breakpad/src/common/linux/elfutils.cc",
+					"workingDirectory" : "C:/Users/JerryZhu/Desktop/breakpaddemo/breakpadlib/.cxx/cmake/debug/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --sysroot=E:/adt-bundle-windows-x86_64/android-ndk-r16b/sysroot  -DENABLE_INPROCESS -DENABLE_OUTOFPROCESS -IC:\\Users\\JerryZhu\\Desktop\\breakpaddemo\\breakpadlib\\src\\main\\cpp\\breakpad\\src -IC:\\Users\\JerryZhu\\Desktop\\breakpaddemo\\breakpadlib\\src\\main\\cpp\\breakpad\\src\\common\\android\\include -IC:\\Users\\JerryZhu\\Desktop\\breakpaddemo\\breakpadlib\\src\\main\\cpp\\breakpad\\src\\common -isystem E:\\adt-bundle-windows-x86_64\\android-ndk-r16b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem E:\\adt-bundle-windows-x86_64\\android-ndk-r16b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\arm64-v8a\\include -isystem E:\\adt-bundle-windows-x86_64\\android-ndk-r16b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem E:/adt-bundle-windows-x86_64/android-ndk-r16b/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -std=c++11  -O0  -fPIC    -c ",
+					"src" : "C:/Users/JerryZhu/Desktop/breakpaddemo/breakpadlib/src/main/cpp/breakpad/src/common/linux/file_id.cc",
+					"workingDirectory" : "C:/Users/JerryZhu/Desktop/breakpaddemo/breakpadlib/.cxx/cmake/debug/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --sysroot=E:/adt-bundle-windows-x86_64/android-ndk-r16b/sysroot  -DENABLE_INPROCESS -DENABLE_OUTOFPROCESS -IC:\\Users\\JerryZhu\\Desktop\\breakpaddemo\\breakpadlib\\src\\main\\cpp\\breakpad\\src -IC:\\Users\\JerryZhu\\Desktop\\breakpaddemo\\breakpadlib\\src\\main\\cpp\\breakpad\\src\\common\\android\\include -IC:\\Users\\JerryZhu\\Desktop\\breakpaddemo\\breakpadlib\\src\\main\\cpp\\breakpad\\src\\common -isystem E:\\adt-bundle-windows-x86_64\\android-ndk-r16b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem E:\\adt-bundle-windows-x86_64\\android-ndk-r16b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\arm64-v8a\\include -isystem E:\\adt-bundle-windows-x86_64\\android-ndk-r16b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem E:/adt-bundle-windows-x86_64/android-ndk-r16b/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -std=c++11  -O0  -fPIC    -c ",
+					"src" : "C:/Users/JerryZhu/Desktop/breakpaddemo/breakpadlib/src/main/cpp/breakpad/src/common/linux/guid_creator.cc",
+					"workingDirectory" : "C:/Users/JerryZhu/Desktop/breakpaddemo/breakpadlib/.cxx/cmake/debug/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --sysroot=E:/adt-bundle-windows-x86_64/android-ndk-r16b/sysroot  -DENABLE_INPROCESS -DENABLE_OUTOFPROCESS -IC:\\Users\\JerryZhu\\Desktop\\breakpaddemo\\breakpadlib\\src\\main\\cpp\\breakpad\\src -IC:\\Users\\JerryZhu\\Desktop\\breakpaddemo\\breakpadlib\\src\\main\\cpp\\breakpad\\src\\common\\android\\include -IC:\\Users\\JerryZhu\\Desktop\\breakpaddemo\\breakpadlib\\src\\main\\cpp\\breakpad\\src\\common -isystem E:\\adt-bundle-windows-x86_64\\android-ndk-r16b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem E:\\adt-bundle-windows-x86_64\\android-ndk-r16b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\arm64-v8a\\include -isystem E:\\adt-bundle-windows-x86_64\\android-ndk-r16b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem E:/adt-bundle-windows-x86_64/android-ndk-r16b/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -std=c++11  -O0  -fPIC    -c ",
+					"src" : "C:/Users/JerryZhu/Desktop/breakpaddemo/breakpadlib/src/main/cpp/breakpad/src/common/linux/linux_libc_support.cc",
+					"workingDirectory" : "C:/Users/JerryZhu/Desktop/breakpaddemo/breakpadlib/.cxx/cmake/debug/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --sysroot=E:/adt-bundle-windows-x86_64/android-ndk-r16b/sysroot  -DENABLE_INPROCESS -DENABLE_OUTOFPROCESS -IC:\\Users\\JerryZhu\\Desktop\\breakpaddemo\\breakpadlib\\src\\main\\cpp\\breakpad\\src -IC:\\Users\\JerryZhu\\Desktop\\breakpaddemo\\breakpadlib\\src\\main\\cpp\\breakpad\\src\\common\\android\\include -IC:\\Users\\JerryZhu\\Desktop\\breakpaddemo\\breakpadlib\\src\\main\\cpp\\breakpad\\src\\common -isystem E:\\adt-bundle-windows-x86_64\\android-ndk-r16b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem E:\\adt-bundle-windows-x86_64\\android-ndk-r16b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\arm64-v8a\\include -isystem E:\\adt-bundle-windows-x86_64\\android-ndk-r16b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem E:/adt-bundle-windows-x86_64/android-ndk-r16b/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -std=c++11  -O0  -fPIC    -c ",
+					"src" : "C:/Users/JerryZhu/Desktop/breakpaddemo/breakpadlib/src/main/cpp/breakpad/src/common/linux/memory_mapped_file.cc",
+					"workingDirectory" : "C:/Users/JerryZhu/Desktop/breakpaddemo/breakpadlib/.cxx/cmake/debug/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --sysroot=E:/adt-bundle-windows-x86_64/android-ndk-r16b/sysroot  -DENABLE_INPROCESS -DENABLE_OUTOFPROCESS -IC:\\Users\\JerryZhu\\Desktop\\breakpaddemo\\breakpadlib\\src\\main\\cpp\\breakpad\\src -IC:\\Users\\JerryZhu\\Desktop\\breakpaddemo\\breakpadlib\\src\\main\\cpp\\breakpad\\src\\common\\android\\include -IC:\\Users\\JerryZhu\\Desktop\\breakpaddemo\\breakpadlib\\src\\main\\cpp\\breakpad\\src\\common -isystem E:\\adt-bundle-windows-x86_64\\android-ndk-r16b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem E:\\adt-bundle-windows-x86_64\\android-ndk-r16b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\arm64-v8a\\include -isystem E:\\adt-bundle-windows-x86_64\\android-ndk-r16b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem E:/adt-bundle-windows-x86_64/android-ndk-r16b/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -std=c++11  -O0  -fPIC    -c ",
+					"src" : "C:/Users/JerryZhu/Desktop/breakpaddemo/breakpadlib/src/main/cpp/breakpad/src/common/linux/safe_readlink.cc",
+					"workingDirectory" : "C:/Users/JerryZhu/Desktop/breakpaddemo/breakpadlib/.cxx/cmake/debug/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --sysroot=E:/adt-bundle-windows-x86_64/android-ndk-r16b/sysroot -DENABLE_INPROCESS -DENABLE_OUTOFPROCESS -IC:\\Users\\JerryZhu\\Desktop\\breakpaddemo\\breakpadlib\\src\\main\\cpp\\breakpad\\src -IC:\\Users\\JerryZhu\\Desktop\\breakpaddemo\\breakpadlib\\src\\main\\cpp\\breakpad\\src\\common\\android\\include -IC:\\Users\\JerryZhu\\Desktop\\breakpaddemo\\breakpadlib\\src\\main\\cpp\\breakpad\\src\\common  -isystem E:/adt-bundle-windows-x86_64/android-ndk-r16b/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -Werror=implicit-function-declaration -O0  -fPIC      -c ",
+					"src" : "C:/Users/JerryZhu/Desktop/breakpaddemo/breakpadlib/src/main/cpp/breakpad/src/common/linux/breakpad_getcontext.S",
+					"workingDirectory" : "C:/Users/JerryZhu/Desktop/breakpaddemo/breakpadlib/.cxx/cmake/debug/arm64-v8a"
+				}
+			],
+			"output" : "C:/Users/JerryZhu/Desktop/breakpaddemo/breakpadlib/.cxx/cmake/debug/arm64-v8a/breakpad/libbreakpad.a",
+			"toolchain" : "1814874897"
+		},
+		"breakpad_core-Debug-arm64-v8a" : 
+		{
+			"abi" : "arm64-v8a",
+			"artifactName" : "breakpad_core",
+			"buildCommand" : "E:\\adt-bundle-windows-x86_64\\sdk_as\\cmake\\3.6.4111459\\bin\\cmake.exe --build C:\\Users\\JerryZhu\\Desktop\\breakpaddemo\\breakpadlib\\.cxx\\cmake\\debug\\arm64-v8a --target breakpad_core",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --sysroot=E:/adt-bundle-windows-x86_64/android-ndk-r16b/sysroot  -DENABLE_INPROCESS -DENABLE_OUTOFPROCESS -Dbreakpad_core_EXPORTS -IC:\\Users\\JerryZhu\\Desktop\\breakpaddemo\\breakpadlib\\src\\main\\cpp\\breakpad\\src -IC:\\Users\\JerryZhu\\Desktop\\breakpaddemo\\breakpadlib\\src\\main\\cpp\\breakpad\\src\\common\\android\\include -isystem E:\\adt-bundle-windows-x86_64\\android-ndk-r16b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem E:\\adt-bundle-windows-x86_64\\android-ndk-r16b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\arm64-v8a\\include -isystem E:\\adt-bundle-windows-x86_64\\android-ndk-r16b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem E:/adt-bundle-windows-x86_64/android-ndk-r16b/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -std=c++11  -O0  -fPIC    -c ",
+					"src" : "C:/Users/JerryZhu/Desktop/breakpaddemo/breakpadlib/src/main/cpp/breakpadlib.cpp",
+					"workingDirectory" : "C:/Users/JerryZhu/Desktop/breakpaddemo/breakpadlib/.cxx/cmake/debug/arm64-v8a"
+				}
+			],
+			"output" : "C:/Users/JerryZhu/Desktop/breakpaddemo/breakpadlib/build/intermediates/cmake/debug/obj/arm64-v8a/libbreakpad_core.so",
+			"toolchain" : "1814874897"
+		}
+	},
+	"toolchains" : 
+	{
+		"1814874897" : 
+		{
+			"cCompilerExecutable" : "E:/adt-bundle-windows-x86_64/android-ndk-r16b/toolchains/aarch64-linux-android-4.9/prebuilt/windows-x86_64/bin/aarch64-linux-android-gcc.exe",
+			"cppCompilerExecutable" : "E:/adt-bundle-windows-x86_64/android-ndk-r16b/toolchains/aarch64-linux-android-4.9/prebuilt/windows-x86_64/bin/aarch64-linux-android-g++.exe"
+		}
+	}
 }

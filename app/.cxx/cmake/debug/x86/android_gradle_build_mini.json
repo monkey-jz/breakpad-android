@@ -1,18 +1,16 @@
 {
   "buildFiles": [
-    "/home/jerryzhu/Desktop/as_tools/android-ndk-r16b/build/cmake/android.toolchain.cmake",
-    "/home/jerryzhu/Desktop/breakpaddemo/app/src/main/cpp/CMakeLists.txt"
+    "C:\\Users\\JerryZhu\\Desktop\\breakpaddemo\\app\\src\\main\\cpp\\CMakeLists.txt"
   ],
   "cleanCommands": [
-    "/home/jerryzhu/Desktop/as_tools/android_tools/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/jerryzhu/Desktop/breakpaddemo/app/.cxx/cmake/debug/x86\" clean"
+    "E:\\adt-bundle-windows-x86_64\\sdk_as\\cmake\\3.6.4111459\\bin\\cmake.exe --build C:\\Users\\JerryZhu\\Desktop\\breakpaddemo\\app\\.cxx\\cmake\\debug\\x86 --target clean"
   ],
-  "buildTargetsCommand": "/home/jerryzhu/Desktop/as_tools/android_tools/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/jerryzhu/Desktop/breakpaddemo/app/.cxx/cmake/debug/x86\" {LIST_OF_TARGETS_TO_BUILD}",
   "libraries": {
     "native-lib-Debug-x86": {
       "artifactName": "native-lib",
-      "buildCommand": "/home/jerryzhu/Desktop/as_tools/android_tools/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/jerryzhu/Desktop/breakpaddemo/app/.cxx/cmake/debug/x86\" native-lib",
+      "buildCommand": "E:\\adt-bundle-windows-x86_64\\sdk_as\\cmake\\3.6.4111459\\bin\\cmake.exe --build C:\\Users\\JerryZhu\\Desktop\\breakpaddemo\\app\\.cxx\\cmake\\debug\\x86 --target native-lib",
       "abi": "x86",
-      "output": "/home/jerryzhu/Desktop/breakpaddemo/app/build/intermediates/cmake/debug/obj/x86/libnative-lib.so"
+      "output": "C:\\Users\\JerryZhu\\Desktop\\breakpaddemo\\app\\build\\intermediates\\cmake\\debug\\obj\\x86\\libnative-lib.so"
     }
   }
 }

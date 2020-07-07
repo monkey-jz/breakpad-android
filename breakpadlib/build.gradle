@@ -13,6 +13,19 @@ android {
         ndk {
             abiFilters "armeabi-v7a", "arm64-v8a", "x86"
         }
+
+        externalNativeBuild {
+            cmake {
+                cppFlags "-std=c++11"
+                arguments "-DANDROID_TOOLCHAIN=gcc"
+            }
+        }
+    }
+
+    externalNativeBuild {
+        cmake {
+            path 'src/main/cpp/CMakeLists.txt'
+        }
     }
 
     buildTypes {
@@ -21,16 +34,6 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
-
-    externalNativeBuild {
-        cmake {
-            path "src/main/cpp/CMakeLists.txt"
-
-//            cppFlags "-std=c++11"
-//            arguments "-DANDROID_TOOLCHAIN=gcc"
-        }
-    }
-
 }
 
 dependencies {

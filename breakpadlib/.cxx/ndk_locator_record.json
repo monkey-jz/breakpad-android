@@ -1,5 +1,5 @@
 {
-  "ndkFolder": "/home/jerryzhu/Desktop/as_tools/android-ndk-r16b",
+  "ndkFolder": "E:\\adt-bundle-windows-x86_64\\android-ndk-r16b",
   "messages": [
     {
       "level": "INFO",
@@ -7,7 +7,7 @@
     },
     {
       "level": "INFO",
-      "message": "ndk.dir in local.properties is /home/jerryzhu/Desktop/as_tools/android-ndk-r16b"
+      "message": "ndk.dir in local.properties is E:\\adt-bundle-windows-x86_64\\android-ndk-r16b"
     },
     {
       "level": "INFO",
@@ -15,27 +15,31 @@
     },
     {
       "level": "INFO",
-      "message": "sdkFolder is /home/jerryzhu/Desktop/as_tools/android_tools/sdk"
+      "message": "sdkFolder is E:\\adt-bundle-windows-x86_64\\sdk_as"
     },
     {
       "level": "INFO",
-      "message": "Considering /home/jerryzhu/Desktop/as_tools/android-ndk-r16b by ndk.dir"
+      "message": "Considering E:\\adt-bundle-windows-x86_64\\android-ndk-r16b by ndk.dir"
     },
     {
       "level": "INFO",
-      "message": "Considering /home/jerryzhu/Desktop/as_tools/android_tools/sdk/ndk-bundle in SDK ndk-bundle folder"
+      "message": "Considering E:\\adt-bundle-windows-x86_64\\sdk_as\\ndk-bundle in SDK ndk-bundle folder"
     },
     {
       "level": "INFO",
-      "message": "Considering /home/jerryzhu/Desktop/as_tools/android_tools/sdk/ndk/21.3.6528147 in SDK ndk folder"
+      "message": "Considering E:\\adt-bundle-windows-x86_64\\sdk_as\\ndk\\20.0.5594570 in SDK ndk folder"
     },
     {
       "level": "INFO",
-      "message": "Rejected /home/jerryzhu/Desktop/as_tools/android_tools/sdk/ndk-bundle in SDK ndk-bundle folder because that location has no source.properties"
+      "message": "Considering E:\\adt-bundle-windows-x86_64\\sdk_as\\ndk\\21.0.6113669 in SDK ndk folder"
     },
     {
       "level": "INFO",
-      "message": "Found requested ndk.dir (/home/jerryzhu/Desktop/as_tools/android-ndk-r16b) which has version 16.1.4479499"
+      "message": "Rejected E:\\adt-bundle-windows-x86_64\\sdk_as\\ndk-bundle in SDK ndk-bundle folder because that location has no source.properties"
+    },
+    {
+      "level": "INFO",
+      "message": "Found requested ndk.dir (E:\\adt-bundle-windows-x86_64\\android-ndk-r16b) which has version 16.1.4479499"
     }
   ]
 }

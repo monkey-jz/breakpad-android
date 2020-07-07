@@ -1,2 +1,25 @@
 # ninja log v5
-0	16	0	clean	a1aa9c0deb2264e
+547	1447	0	breakpad/CMakeFiles/breakpad.dir/src/common/convert_UTF.cc.o	b58b8a2fef4fcd51
+240	1557	0	breakpad/CMakeFiles/breakpad.dir/src/client/linux/handler/minidump_descriptor.cc.o	7517af988574a76
+101	2355	0	breakpad/CMakeFiles/breakpad.dir/src/client/linux/dump_writer_common/ucontext_reader.cc.o	469b58c90b903ad7
+51	2407	0	breakpad/CMakeFiles/breakpad.dir/src/client/linux/dump_writer_common/thread_info.cc.o	5bb96270767b0fea
+404	2661	0	breakpad/CMakeFiles/breakpad.dir/src/client/linux/crash_generation/crash_generation_client.cc.o	ac34765b1d8571a6
+5	3165	0	breakpad/CMakeFiles/breakpad.dir/src/client/linux/handler/exception_handler.cc.o	3f17c6b0f28ac69d
+1447	3248	0	breakpad/CMakeFiles/breakpad.dir/src/common/md5.cc.o	3caf7ef0fb4eca35
+1559	3780	0	breakpad/CMakeFiles/breakpad.dir/src/client/linux/minidump_writer/linux_ptrace_dumper.cc.o	99a545bec966baea
+2356	3874	0	breakpad/CMakeFiles/breakpad.dir/src/common/string_conversion.cc.o	eb161073c726ab8d
+2407	4394	0	breakpad/CMakeFiles/breakpad.dir/src/common/linux/elfutils.cc.o	a51b6582e03c564e
+3248	4595	0	breakpad/CMakeFiles/breakpad.dir/src/client/linux/log/log.cc.o	39e8f99e37050250
+3166	5898	0	breakpad/CMakeFiles/breakpad.dir/src/client/linux/minidump_writer/linux_dumper.cc.o	9739cb0f0060b68
+2662	6118	0	breakpad/CMakeFiles/breakpad.dir/src/client/linux/minidump_writer/minidump_writer.cc.o	31e9aec8c359ef9f
+4394	6716	0	breakpad/CMakeFiles/breakpad.dir/src/common/linux/linux_libc_support.cc.o	f45fc89a6995c15b
+3874	6840	0	breakpad/CMakeFiles/breakpad.dir/src/client/minidump_file_writer.cc.o	a87df0c90b48bdd9
+3781	7176	0	breakpad/CMakeFiles/breakpad.dir/src/client/linux/microdump_writer/microdump_writer.cc.o	f407a20299665f46
+4595	7577	0	breakpad/CMakeFiles/breakpad.dir/src/common/linux/file_id.cc.o	f0c9e346ee0214b3
+5898	7672	0	breakpad/CMakeFiles/breakpad.dir/src/common/linux/breakpad_getcontext.S.o	ac6293d7ac269d09
+6716	7755	0	breakpad/CMakeFiles/breakpad.dir/src/common/linux/safe_readlink.cc.o	509dffee71b643e
+6118	7847	0	breakpad/CMakeFiles/breakpad.dir/src/common/linux/guid_creator.cc.o	ae4a079a42e1a9fd
+6840	7959	0	breakpad/CMakeFiles/breakpad.dir/src/common/linux/memory_mapped_file.cc.o	27606791a1cef80c
+7960	9981	0	breakpad/libbreakpad.a	c6c026bf7b0b448e
+9981	11482	0	CMakeFiles/breakpad_core.dir/breakpadlib.cpp.o	41b42a0b1102c7b1
+11482	12319	0	C:/Users/JerryZhu/Desktop/breakpaddemo/breakpadlib/build/intermediates/cmake/debug/obj/x86/libbreakpad_core.so	1dc7831fa61839dd
