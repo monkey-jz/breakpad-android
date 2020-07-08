@@ -46,7 +46,7 @@
 
 * 以android library的形式集成braeakpad代码,项目目录结构如下:
 
-   ![](https://i.ibb.co/NZ3qnM2/20200707155143.png)
+   ![](screenshot/20200707155143.png)
 
    官方提供的breakpad android示例工程sample_app是使用.mk文件编译的,此项目是使用CMakelists.txt编译的,[cmake文档](https://cmake.org/cmake/help/latest/manual/cmake.1.html).如图所示在main/cpp目录下新建breakpad目录,把源码中breakpad/src/src目录拷贝到新建的breakpad目录.
 
@@ -190,10 +190,6 @@
 
 ```
 
-* 演示:
-
-   ![img](screenshot/gifhome-640x384-5s.gif)
-
 * 通过JNI调用C++触发native crash 会出现如下日志:
 
 ```java
@@ -203,10 +199,20 @@
 
  a6e25f6a-08f2-4e31-9e5d5886-fd562ae0.dmp就是breakpad生成的包含堆栈相关信息的文件,由于此文件是从无符号的so库中获取的,所以看不到什么具体信息,需要使用之前编译的工具结合有符号的so库来获取堆栈日志.
 
-* 获取堆栈日志
+* 获取堆栈信息
+
+     先来看一下整个流程:
+     
+    ![](screenshot/20190219171510634.png)
+    
+    解释:
+        我们都是给应用使用无符号的so库,无符号的so库体积小更安全.androidstudio在构建的时候还会在``$PROJECT_PATH/app/build/intermediates/cmake/debug/obj/$ABI/`` 下生成带有调试信息有符号的so库,breakpad提供了 ``dump_syms`` 工具可以从含有符号的so库中获取符号信息,当应用发成native crash时breakpad client会生成一份MINIDUMP_FILE即dmp格式的文件,breakpad提供了 ``minidump_stackwalk`` 工具结合这个dmp格式的文件和之前生成的符号表信息就可以定位原生代码崩溃位置了.
+
+     具体步骤实施：   
  
-     官方提供的步骤: 
+    官方提供的步骤: 
 [README.ANDROID](https://github.com/google/breakpad/blob/master/README.ANDROID)
+       
 
     1.利用 ``dump_syms`` 工具Dump出有符号的so中的符号表
 
@@ -228,43 +234,48 @@
         minidump_stackwalk $MINIDUMP_FILE $PROJECT_PATH/symbols
      ```
 
-    ``MINIDUMP_FILE`` 是应用发生native crash时breakpad生成de 文件,demo中是 ``
+    ``MINIDUMP_FILE`` 是应用发生native crash时breakpad生成的文件,demo中是 ``
     e25f6a-08f2-4e31-9e5d5886-fd562ae0.dmp`` , ``PROJECT_PATH/symbols`` 是上一步中创建的含有符号表的文件目录
 
     此命令执行完之后,会看到如下输出:
     
-    ![](https://i.ibb.co/Hpg0STZ/20200707183720.png)
+    ![](screenshot/20200708112905.png)
 
-    4.另一种方法输出到文件里
+    直接定位到了崩溃函数和代码行数
 
-    ```sh
+    4.另一种方法
 
-        minidump_stackwalk $MINIDUMP_FILE > dumpCrash.txt
+       * 先使用minidump_stackwalk工具获取堆栈信息
 
-    ```
+        
+           ```sh 
+              
+            minidump_stackwalk $MINIDUMP_FILE > dumpCrash.txt
+           ```sh
+        
     
-    文件内容如下所示:
+        文件内容如下所示由于没有使用函数符号表所以没有具体崩溃函数信息,但有崩溃地址:
 
-    ![](https://i.ibb.co/89G2X2M/20200707184512.png)
+        ![](screenshot/20200707184512.png)
     
-    可以看到程序崩溃地址和native堆栈信息
+        可以看到程序崩溃地址和native堆栈信息
 
+     * 再使用addr2line工具利用含有符号信息的so和崩溃地址来定位代码崩溃位置
+      
+        ```
+       $NDK_PATH/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-addr2line -f -e $PROJECT_PATH/obj/local/$ABI/libnative-lib.so $crash_address
+        ```
+
+        64位使用 ``aarch64-linux-android-addr2line`` ,32位是 
+     ``$NDK_PATH/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-addr2line`` ,so库为androidstudio生成的含有符号信息的so库, ``crash_address`` 是上面获取到的崩溃地址如0x5a8,命令执行结果如下:
     
-* 定位bug
-  
-```sh
-    $NDK_PATH/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-addr2line -f -e $PROJECT_PATH/obj/local/$ABI/libnative-lib.so $crash_address
-```
- 64位使用 ``aarch64-linux-android-addr2line`` ,32位是 
-``$NDK_PATH/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-addr2line`` ,so库为androidstudio生成的含有符号信息的so库, ``crash_address`` 是上面获取到的崩溃地址如0x5a8,命令执行结果如下:
-    
-   ![](https://i.ibb.co/r6sZS39/20200708100314.png)
+           ![](screenshot/20200708100314.png)
    
-   可以看到发生崩溃的函数和代码行数
+           同样可以看到发生崩溃的函数和代码行数
 
-   ![](https://i.ibb.co/LgMMrP4/20200708100450.png)
+           ![](screenshot/20200708100450.png)
 
-   准确定位.
+          准确定位.
         
 
    
