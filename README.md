@@ -192,7 +192,7 @@
 
 * 演示:
 
-    ![](https://i.ibb.co/nfnNcK0/gifhome-640x384-5s.gif)
+   ![image](https://i.ibb.co/nfnNcK0/gifhome-640x384-5s.gif)
 
 * 通过JNI调用C++触发native crash 会出现如下日志:
 
@@ -217,14 +217,15 @@
  
     2.创建包含上一步生成的符号表的目录
 
-       ``libnative-lib.so.sym`` 文件的第一行是 ``MODULE Linux arm D51B4A5504974FA6ECC1869CAEE3603B0 test_google_breakpad`` 这种格式,创建的文件夹应该是这样的结构 ``$PROJECT_PATH/symbols/libnative-lib.so/$VERSION/`` 例如: ``$PROJECT_PATH/symbols/libnative-lib.so/D51B4A5504974FA6ECC1869CAEE3603B0/`` ,创建完成后把 ``libnative-lib.so.sym`` 拷贝到这个目录中去.
-        
+    
+     ``libnative-lib.so.sym`` 文件的第一行是 ``MODULE Linux arm D51B4A5504974FA6ECC1869CAEE3603B0 test_google_breakpad`` 这种格式,创建的文件夹应该是这样的结构 ``$PROJECT_PATH/symbols/libnative-lib.so/$VERSION/`` 例如: ``$PROJECT_PATH/symbols/libnative-lib.so/D51B4A5504974FA6ECC1869CAEE3603B0/`` ,创建完成后把 ``libnative-lib.so.sym`` 拷贝到这个目录中去.
+    
+
     3.使用 ``minidump_stackwalk`` 工具获取堆栈信息
 
      ```sh
     
         minidump_stackwalk $MINIDUMP_FILE $PROJECT_PATH/symbols
-        
      ```
 
     ``MINIDUMP_FILE`` 是应用发生native crash时breakpad生成de 文件,demo中是 ``
