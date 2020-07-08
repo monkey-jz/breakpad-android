@@ -9,19 +9,7 @@
   },
   {
     "level": "INFO",
-    "message": "- command changed from previous, will remove stale json folder"
-  },
-  {
-    "level": "INFO",
-    "message": "- a dependent build file changed"
-  },
-  {
-    "level": "INFO",
-    "message": "  - C:\\Users\\JerryZhu\\Desktop\\breakpaddemo\\breakpadlib\\src\\main\\cpp\\CMakeLists.txt"
-  },
-  {
-    "level": "INFO",
-    "message": "  - C:\\Users\\JerryZhu\\Desktop\\breakpaddemo\\breakpadlib\\src\\main\\cpp\\breakpad\\CMakeLists.txt"
+    "message": "- force flag, will remove stale json folder"
   },
   {
     "level": "INFO",

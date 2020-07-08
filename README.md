@@ -2,7 +2,7 @@
 
 ### 简介:
 
-此项目演示了如何把google开源项目breakpad集成进android应用,实现native即C++代码崩溃堆栈信息的获取.在生产环境中app内使用的都是去除符号后的so库,breakpad获取的只是堆栈信息和崩溃指令地址,应用可以把这些信息传至服务器,然后再使用工具分析堆栈信息和崩溃地址定位bug.
+此项目演示了如何把google开源项目breakpad集成进android应用,实现native即C++代码崩溃堆栈信息的获取.在生产环境中app内使用的都是去除符号后的so库,breakpad获取的只是堆栈信息和崩溃指令地址,应用可以把这些信息传至服务器,然后再使用工具分析堆栈信息和崩溃地址定位bug.项目中breakpadlib对breakpad进行了简单封装,开发者可以直接依赖此模块调用一行代码即可实现获取native崩溃信息的功能,详细步骤及用法见以下文档.
 
 #### 获取和编译breakpad
 
@@ -42,7 +42,7 @@
 
     src/tools/linux/dump_syms/dump_syms, src/tools/linux/md2core/minidump-2-core
 
-#### 把breakpad集成进android项目
+#### 把breakpad集成进braeakpadlib
 
 * 以android library的形式集成braeakpad代码,项目目录结构如下:
 
@@ -50,7 +50,7 @@
 
    官方提供的breakpad android示例工程sample_app是使用.mk文件编译的,此项目是使用CMakelists.txt编译的,[cmake文档](https://cmake.org/cmake/help/latest/manual/cmake.1.html).如图所示在main/cpp目录下新建breakpad目录,把源码中breakpad/src/src目录拷贝到新建的breakpad目录.
 
-* CMkakeLists.txt文件配置 
+* 构建breakpad的CMkakeLists.txt文件配置 
     
 ```java
 
@@ -95,3 +95,174 @@
 
 ```
 
+* 构建breakpadlib库的CMkakeLists.txt文件配置
+
+```java
+
+    cmake_minimum_required(VERSION 3.4.1)
+
+    set(ENABLE_INPROCESS ON)
+    set(ENABLE_OUTOFPROCESS ON)
+    set(ENABLE_LIBCORKSCREW ON)
+    set(ENABLE_LIBUNWIND ON)
+    set(ENABLE_LIBUNWINDSTACK ON)
+    set(ENABLE_CXXABI ON)
+    set(ENABLE_STACKSCAN ON)
+    if (${ENABLE_INPROCESS})
+        add_definitions(-DENABLE_INPROCESS)
+    endif ()
+    if (${ENABLE_OUTOFPROCESS})
+        add_definitions(-DENABLE_OUTOFPROCESS)
+    endif ()
+    
+    set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -Werror=implicit-function-declaration")
+    set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11 ")
+    
+    include_directories(breakpad/src breakpad/src/common/android/include)
+    add_subdirectory(breakpad)
+    list(APPEND LINK_LIBRARIES breakpad)
+    add_library(breakpad_core SHARED
+           breakpadlib.cpp)
+    target_link_libraries(breakpad_core
+                      ${LINK_LIBRARIES}
+                      log)
+    
+```
+
+* build.gradle配置
+
+```java
+
+    defaultConfig {
+        minSdkVersion 16
+        targetSdkVersion 30
+        versionCode 1
+        versionName "1.0"
+
+        ndk {
+            abiFilters "armeabi-v7a", "arm64-v8a", "x86"
+        }
+
+        externalNativeBuild {
+            cmake {
+                cppFlags "-std=c++11"
+                arguments "-DANDROID_TOOLCHAIN=gcc"
+            }
+        }
+    }
+
+    externalNativeBuild {
+        cmake {
+            path 'src/main/cpp/CMakeLists.txt'
+        }
+    }
+
+```
+
+*核心代码,设置存储崩溃信息的文件夹和回调
+
+```c++
+
+    google_breakpad::MinidumpDescriptor descriptor(_path);
+    static google_breakpad::ExceptionHandler eh(descriptor, NULL, DumpCallback, NULL, true, -1);
+
+```
+
+
+#### 把braeakpadlib集成进android项目
+
+* 直接依赖即可
+* 接口调用
+
+```java
+
+    if(mCrashDumpDir == null){
+        mCrashDumpDir = new File(getExternalCacheDir(), "breakpad/crash_dump");
+    }
+
+    if(!mCrashDumpDir.exists()){
+        mCrashDumpDir.mkdirs();
+    }
+
+    //核心代码
+    Breakpad.init(mCrashDumpDir.getAbsolutePath());
+
+```
+
+* 演示:
+
+![](https://i.ibb.co/nfnNcK0/gifhome-640x384-5s.gif)
+
+* 通过JNI调用C++触发native crash 会出现如下日志:
+
+```java
+
+    E/native_crash: crashDump path: /storage/emulated/0/Android/data/com.jerryzhu.example.breakpaddemo/cache/breakpad/crash_dump/a6e25f6a-08f2-4e31-9e5d5886-fd562ae0.dmp
+``` 
+
+ a6e25f6a-08f2-4e31-9e5d5886-fd562ae0.dmp就是breakpad生成的包含堆栈相关信息的文件,由于此文件是从无符号的so库中获取的,所以看不到什么具体信息,需要使用之前编译的工具结合有符号的so库来获取堆栈日志.
+
+* 获取堆栈日志
+ 
+     官方提供的步骤: 
+[README.ANDROID](https://github.com/google/breakpad/blob/master/README.ANDROID)
+
+    1.利用 ``dump_syms`` 工具Dump出有符号的so中的符号表
+
+     ```sh
+
+        dump_syms $PROJECT_PATH/obj/local/$ABI/libnative-lib.so > libnative-lib.so.sym
+     ```
+ 
+    2.创建包含上一步生成的符号表的目录
+
+       ``libnative-lib.so.sym`` 文件的第一行是 ``MODULE Linux arm D51B4A5504974FA6ECC1869CAEE3603B0 test_google_breakpad`` 这种格式,创建的文件夹应该是这样的结构 ``$PROJECT_PATH/symbols/libnative-lib.so/$VERSION/`` 例如: ``$PROJECT_PATH/symbols/libnative-lib.so/D51B4A5504974FA6ECC1869CAEE3603B0/`` ,创建完成后把 ``libnative-lib.so.sym`` 拷贝到这个目录中去.
+        
+    3.使用 ``minidump_stackwalk`` 工具获取堆栈信息
+
+     ```sh
+    
+        minidump_stackwalk $MINIDUMP_FILE $PROJECT_PATH/symbols
+        
+     ```
+
+    ``MINIDUMP_FILE`` 是应用发生native crash时breakpad生成de 文件,demo中是 ``
+    e25f6a-08f2-4e31-9e5d5886-fd562ae0.dmp`` , ``PROJECT_PATH/symbols`` 是上一步中创建的含有符号表的文件目录
+
+    此命令执行完之后,会看到如下输出:
+    
+    ![](https://i.ibb.co/Hpg0STZ/20200707183720.png)
+
+    4.另一种方法输出到文件里
+
+    ```sh
+
+        minidump_stackwalk $MINIDUMP_FILE > dumpCrash.txt
+
+    ```
+    
+    文件内容如下所示:
+
+    ![](https://i.ibb.co/89G2X2M/20200707184512.png)
+    
+    可以看到程序崩溃地址和native堆栈信息
+
+    
+* 定位bug
+  
+```sh
+    $NDK_PATH/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-addr2line -f -e $PROJECT_PATH/obj/local/$ABI/libnative-lib.so $crash_address
+```
+    64位使用 ``aarch64-linux-android-addr2line`` ,32位是 
+    ``$NDK_PATH/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-addr2line`` ,so库为androidstudio生成的含有符号信息的so库,crash_address是上面获取到的崩溃地址如0x5a8,命令执行结果如下:
+    
+   ![](https://i.ibb.co/r6sZS39/20200708100314.png)
+   
+   可以看到发生崩溃的函数和代码行数
+
+   ![](https://i.ibb.co/LgMMrP4/20200708100450.png)
+
+   准确定位.
+        
+
+   

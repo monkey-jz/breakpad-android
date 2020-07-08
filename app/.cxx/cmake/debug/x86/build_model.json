@@ -5,6 +5,7 @@
       "sdkFolder": "E:\\adt-bundle-windows-x86_64\\sdk_as",
       "isNativeCompilerSettingsCacheEnabled": false,
       "isBuildOnlyTargetAbiEnabled": true,
+      "ideBuildTargetAbi": "x86",
       "splitsAbiFilterSet": [],
       "intermediatesFolder": "C:\\Users\\JerryZhu\\Desktop\\breakpad-android\\app\\build\\intermediates",
       "gradleModulePathName": ":app",
@@ -42,8 +43,6 @@
     "gradleBuildOutputFolder": "C:\\Users\\JerryZhu\\Desktop\\breakpad-android\\app\\.cxx\\cxx\\debug",
     "isDebuggableEnabled": true,
     "validAbiList": [
-      "ARMEABI_V7A",
-      "ARM64_V8A",
       "X86"
     ],
     "buildTargetSet": []
