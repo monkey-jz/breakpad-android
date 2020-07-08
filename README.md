@@ -192,7 +192,7 @@
 
 * 演示:
 
-   ![image](https://i.ibb.co/nfnNcK0/gifhome-640x384-5s.gif)
+   ![img](https://i.ibb.co/nfnNcK0/gifhome-640x384-5s.gif)
 
 * 通过JNI调用C++触发native crash 会出现如下日志:
 
