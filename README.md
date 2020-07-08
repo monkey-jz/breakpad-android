@@ -2,7 +2,7 @@
 
 ### 简介:
 
-此项目演示了如何把google开源项目breakpad集成进android应用,实现native即C++代码崩溃堆栈信息的获取.在生产环境中app内使用的都是去除符号后的so库,breakpad获取的只是堆栈信息和崩溃指令地址,应用可以把这些信息传至服务器,然后再使用工具分析堆栈信息和崩溃地址定位bug.项目中breakpadlib对breakpad进行了简单封装,开发者可以直接依赖此模块调用一行代码即可实现获取native崩溃信息的功能,详细步骤及用法见以下文档.
+此项目演示了如何把google开源项目breakpad集成进android应用,实现native即C++代码崩溃地址定位bug.项目中breakpadlib对breakpad进行了简单封装,开发者可以直接依赖此模块调用一行代码即可实现获取native崩溃信息的功能,详细步骤及用法见以下文档.
 
 #### 获取和编译breakpad
 
@@ -269,13 +269,13 @@
         64位使用 ``aarch64-linux-android-addr2line`` ,32位是 
      ``$NDK_PATH/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-addr2line`` ,so库为androidstudio生成的含有符号信息的so库, ``crash_address`` 是上面获取到的崩溃地址如0x5a8,命令执行结果如下:
     
-           ![](screenshot/20200708100314.png)
+     ![](screenshot/20200708100314.png)
    
-           同样可以看到发生崩溃的函数和代码行数
+     同样可以看到发生崩溃的函数和代码行数
 
-           ![](screenshot/20200708100450.png)
+     ![](screenshot/20200708100450.png)
 
-          准确定位.
+     准确定位.
         
 
    
