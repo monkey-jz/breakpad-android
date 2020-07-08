@@ -6,7 +6,7 @@
 
 #### 获取和编译breakpad
 
-官方文档:[https://github.com/google/breakpad/blob/master/README.md](https://github.com/google/breakpad/blob/master/README.md),
+[官方文档](https://github.com/google/breakpad/blob/master/README.md),
 在windows,macOS,linux都可以编译,但复杂程度不一样,为了方便快速我是在linux上编译的.
 
 1.获取depot-tools工具并配置环境
@@ -46,7 +46,7 @@
 
 * 以android library的形式集成braeakpad代码,项目目录结构如下:
 
-      ![](https://i.ibb.co/NZ3qnM2/20200707155143.png)
+   ![](https://i.ibb.co/NZ3qnM2/20200707155143.png)
 
    官方提供的breakpad android示例工程sample_app是使用.mk文件编译的,此项目是使用CMakelists.txt编译的,[cmake文档](https://cmake.org/cmake/help/latest/manual/cmake.1.html).如图所示在main/cpp目录下新建breakpad目录,把源码中breakpad/src/src目录拷贝到新建的breakpad目录.
 
@@ -159,7 +159,7 @@
 
 ```
 
-*核心代码,设置存储崩溃信息的文件夹和回调
+* 核心代码,设置存储崩溃信息的文件夹和回调
 
 ```c++
 
@@ -176,7 +176,8 @@
 
 ```java
 
-    if(mCrashDumpDir == null){
+    if(mCrashDumpDir == null){ 
+        //设置存放MINIDUMP_FILE文件的目录
         mCrashDumpDir = new File(getExternalCacheDir(), "breakpad/crash_dump");
     }
 
@@ -191,7 +192,7 @@
 
 * 演示:
 
-![](https://i.ibb.co/nfnNcK0/gifhome-640x384-5s.gif)
+    ![](https://i.ibb.co/nfnNcK0/gifhome-640x384-5s.gif)
 
 * 通过JNI调用C++触发native crash 会出现如下日志:
 
@@ -253,8 +254,8 @@
 ```sh
     $NDK_PATH/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-addr2line -f -e $PROJECT_PATH/obj/local/$ABI/libnative-lib.so $crash_address
 ```
-    64位使用 ``aarch64-linux-android-addr2line`` ,32位是 
-    ``$NDK_PATH/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-addr2line`` ,so库为androidstudio生成的含有符号信息的so库,crash_address是上面获取到的崩溃地址如0x5a8,命令执行结果如下:
+ 64位使用 ``aarch64-linux-android-addr2line`` ,32位是 
+``$NDK_PATH/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-addr2line`` ,so库为androidstudio生成的含有符号信息的so库, ``crash_address`` 是上面获取到的崩溃地址如0x5a8,命令执行结果如下:
     
    ![](https://i.ibb.co/r6sZS39/20200708100314.png)
    
