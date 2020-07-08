@@ -2,7 +2,7 @@
 
 ### 简介:
 
-此项目演示了如何把google开源项目breakpad集成进android应用,实现native即C++代码崩溃地址定位bug.项目中breakpadlib对breakpad进行了简单封装,开发者可以直接依赖此模块调用一行代码即可实现获取native崩溃信息的功能,详细步骤及用法见以下文档.
+此项目演示了如何把google开源项目breakpad集成进android应用,实现native即C++代码崩溃定位.项目中breakpadlib对breakpad进行了简单封装,开发者可以直接依赖此模块调用一行代码即可实现获取native崩溃信息的功能,详细步骤及用法见以下文档.
 
 #### 获取和编译breakpad
 
