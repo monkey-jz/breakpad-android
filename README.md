@@ -246,15 +246,10 @@
     4.另一种方法
 
        * 先使用minidump_stackwalk工具获取堆栈信息
-
-        
-           ```sh 
-              
-            minidump_stackwalk $MINIDUMP_FILE > dumpCrash.txt
-           ```sh
-        
-    
-        文件内容如下所示由于没有使用函数符号表所以没有具体崩溃函数信息,但有崩溃地址:
+           
+           minidump_stackwalk $MINIDUMP_FILE > dumpCrash.txt
+           
+         文件内容如下所示由于没有使用函数符号表所以没有具体崩溃函数信息,但有崩溃地址:
 
         ![](screenshot/20200707184512.png)
     
